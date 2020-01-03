@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Trang Chủ" NavigateUrl="~/Default.aspx" />
+  
+  <MenuItem Text="Doanh Số" >
+    <item Text="Doanh số Tổng" NavigateUrl="~/SALES/DoanhSO.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+ 
+    <item Text="Doanh số theo Nhân viên" NavigateUrl="~/SALES/DoanhSONV.aspx"  ImageUrl="~/Content/Images/Accept-Male-User-icon.png"  />
+    <item Text="Doanh Số theo CTKM" NavigateUrl="~/SALES/TongHopKhuyenMai.aspx" ImageUrl="~/Content/Images/SEO-icon.png"/>
+    <item Text="Dữ liệu Full All" NavigateUrl="~/SALES/dulieugoc.aspx" ImageUrl="~/Content/Images/SEO-icon.png" />
+    <item Text="Dữ liệu NPP All" NavigateUrl="~/SALES/dulieuAll.aspx"  ImageUrl="~/Content/Images/SEO-icon.png"/>
+  </MenuItem >
+ <MenuItem  Text="Bao Phủ" > 
+    <item Text="Bao Phủ Theo Nhân Viên" NavigateUrl="~/BAOPHU/Baophunpp.aspx"  ImageUrl="~/Content/Images/Accept-Male-User-icon.png" />
+    <item Text="Bao Phủ Theo NPP" NavigateUrl="~/BAOPHU/Baophu.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+  </MenuItem >
+   <MenuItem  Text="Tồn Kho" NavigateUrl="~/TONKHO/Tonkho.aspx" >
+    <item Text="Tổng Hợp" NavigateUrl="~/TONKHO/Tonkho.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png" />
+    <item Text="Nhập Xuất Tồn SKU" NavigateUrl="~/TONKHO/Tonkhosku.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png"  />
+   <item Text="Tổng hợp mua vào bán ra" NavigateUrl="~/TONKHO/tonkhotong.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png"  />
+  </MenuItem >
+  <MenuItem  Text="Quản Lý">
+    <item Text="Danh Sách Khách Hàng" NavigateUrl="~/SYSTEM/DSKhachhangs.aspx" />
+    <item Text="Danh Sách Nhân Viên" NavigateUrl="~/SYSTEM/DanhsachNV.aspx" />
+    <item Text="Danh Sách Nhà Phân Phối" NavigateUrl="~/SYSTEM/khachhang.aspx"/>
+    <item Text="Danh Sách Sản Phẩm" NavigateUrl="~/SYSTEM/SanPham.aspx"/>
+  <item Text="Upload số từ npp" NavigateUrl="~/SYSTEM/updatesoban.aspx"/>
+    <item Text="Chu Kỳ" NavigateUrl="~/SYSTEM/chuky.aspx"/>
+    <item Text="Chương trình Khuyến Mãi" NavigateUrl="~/SYSTEM/CTKM.aspx"/>
+ 
+  </MenuItem >
+   
+      <item Text="Giới thiệu" NavigateUrl="~/about.aspx"/>
+   
+</items>

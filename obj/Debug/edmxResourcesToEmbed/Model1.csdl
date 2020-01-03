@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SSMModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SSMEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="baophunhanviens" EntityType="SSMModel.baophunhanvien" />
+    <EntitySet Name="bpnpps" EntityType="SSMModel.bpnpp" />
+    <EntitySet Name="dtproperties" EntityType="SSMModel.dtproperty" />
+    <EntitySet Name="SDDoanhsoes" EntityType="SSMModel.SDDoanhso" />
+    <EntitySet Name="SDDoanhso2" EntityType="SSMModel.SDDoanhso2" />
+    <EntitySet Name="SDKhachhangs" EntityType="SSMModel.SDKhachhang" />
+    <EntitySet Name="SDKhachhang1" EntityType="SSMModel.SDKhachhang1" />
+    <EntitySet Name="SDKhachhangNVs" EntityType="SSMModel.SDKhachhangNV" />
+    <EntitySet Name="SDNhanviens" EntityType="SSMModel.SDNhanvien" />
+    <EntitySet Name="SDNhanvien1" EntityType="SSMModel.SDNhanvien1" />
+    <EntitySet Name="SDTondaus" EntityType="SSMModel.SDTondau" />
+    <EntitySet Name="StockHistories" EntityType="SSMModel.StockHistory" />
+    <EntitySet Name="sysdiagrams" EntityType="SSMModel.sysdiagram" />
+    <EntitySet Name="TB_DangNhap" EntityType="SSMModel.TB_DangNhap" />
+    <EntitySet Name="tbActives" EntityType="SSMModel.tbActive" />
+    <EntitySet Name="tbCTKMs" EntityType="SSMModel.tbCTKM" />
+    <EntitySet Name="tbCustomers" EntityType="SSMModel.tbCustomer" />
+    <EntitySet Name="tbCustomerS1" EntityType="SSMModel.tbCustomer1" />
+    <EntitySet Name="tbItems" EntityType="SSMModel.tbItem" />
+    <EntitySet Name="tblBaophus" EntityType="SSMModel.tblBaophu" />
+    <EntitySet Name="tbllogs" EntityType="SSMModel.tbllog" />
+    <EntitySet Name="tbLoaiCTs" EntityType="SSMModel.tbLoaiCT" />
+    <EntitySet Name="tbPeriods" EntityType="SSMModel.tbPeriod" />
+    <EntitySet Name="TBQuyenUsers" EntityType="SSMModel.TBQuyenUser" />
+    <EntitySet Name="tbSalesINs" EntityType="SSMModel.tbSalesIN" />
+    <EntitySet Name="tbWeeks" EntityType="SSMModel.tbWeek" />
+    <EntitySet Name="tonkho22" EntityType="SSMModel.tonkho22" />
+    <EntitySet Name="CTNhapXuats" EntityType="SSMModel.CTNhapXuat" />
+    <EntitySet Name="NhapXuats" EntityType="SSMModel.NhapXuat" />
+    <EntitySet Name="v_Item" EntityType="SSMModel.v_Item" />
+    <EntitySet Name="v_SalesDailyMT" EntityType="SSMModel.v_SalesDailyMT" />
+    <EntitySet Name="Vw_NX" EntityType="SSMModel.Vw_NX" />
+    <EntitySet Name="Vw_webFull" EntityType="SSMModel.Vw_webFull" />
+    <EntitySet Name="vwDataHNs" EntityType="SSMModel.vwDataHN" />
+    <EntitySet Name="vwdoanhsofulls" EntityType="SSMModel.vwdoanhsofull" />
+    <EntitySet Name="vwSDFullDatas" EntityType="SSMModel.vwSDFullData" />
+    <EntitySet Name="vwSDTonSKUs" EntityType="SSMModel.vwSDTonSKU" />
+    <EntitySet Name="vwSDXuatNhapTons" EntityType="SSMModel.vwSDXuatNhapTon" />
+  </EntityContainer>
+  <EntityType Name="baophunhanvien">
+    <Key>
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <Property Name="SLDonhang" Type="Int32" Nullable="false" />
+    <Property Name="SLKHMua" Type="Int32" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="Int32" Nullable="false" />
+    <Property Name="SLSKU" Type="Int32" Nullable="false" />
+    <Property Name="TyleKHMua" Type="Double" />
+    <Property Name="TyleDH_KH" Type="Double" />
+    <Property Name="TyleDS_DH" Type="Double" />
+    <Property Name="TyleSKU_DH" Type="Double" />
+  </EntityType>
+  <EntityType Name="bpnpp">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <Property Name="SLNV" Type="Int32" Nullable="false" />
+    <Property Name="SLDonhang" Type="Int32" Nullable="false" />
+    <Property Name="SLKHMua" Type="Int32" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="Int32" Nullable="false" />
+    <Property Name="SLSKU" Type="Int32" Nullable="false" />
+    <Property Name="TyleKHMua" Type="Double" />
+    <Property Name="TyleDH_KH" Type="Double" />
+    <Property Name="TyleDS_DH" Type="Double" />
+    <Property Name="TyleSKU_DH" Type="Double" />
+  </EntityType>
+  <EntityType Name="dtproperty">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="property" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="objectid" Type="Int32" />
+    <Property Name="property" Type="String" Nullable="false" MaxLength="64" Unicode="false" FixedLength="false" />
+    <Property Name="value" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uvalue" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="lvalue" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="version" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SDDoanhso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Soluong" Type="Double" />
+    <Property Name="Dongia" Type="Double" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="USERs" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dates" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="SDDoanhso2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Soluong" Type="Double" />
+    <Property Name="Dongia" Type="Double" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SDKhachhang">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="NgayHD" Type="DateTime" Precision="3" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDKhachhang1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="NgayHD" Type="DateTime" Precision="3" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDKhachhangNV">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Activer" Type="String" MaxLength="1" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="SDNhanvien">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Manv" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="Ngayvao" Type="DateTime" Precision="0" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDNhanvien1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Manv" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="Ngayvao" Type="DateTime" Precision="0" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDTondau">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TonDK" Type="Double" />
+    <Property Name="TonHB" Type="Double" />
+    <Property Name="TonKM" Type="Double" />
+    <Property Name="TonTU" Type="Double" />
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="StockHistory">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaSP" />
+      <PropertyRef Name="Thang" />
+      <PropertyRef Name="Nam" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Thang" Type="Int32" Nullable="false" />
+    <Property Name="Nam" Type="Int32" Nullable="false" />
+    <Property Name="Gia" Type="Double" />
+    <Property Name="TonDK" Type="Double" />
+    <Property Name="TonDKHB" Type="Double" />
+    <Property Name="TonDKKM" Type="Double" />
+    <Property Name="TonDKTU" Type="Double" />
+    <Property Name="NhapHB" Type="Double" />
+    <Property Name="NhapKM" Type="Double" />
+    <Property Name="XuatHB" Type="Double" />
+    <Property Name="XuatKM" Type="Double" />
+    <Property Name="XuatDHBKM" Type="Double" />
+    <Property Name="NhapTU" Type="Double" />
+    <Property Name="XuatTU" Type="Double" />
+    <Property Name="TonCK" Type="Double" />
+    <Property Name="TonCKHB" Type="Double" />
+    <Property Name="TonCKKM" Type="Double" />
+    <Property Name="TonCKTU" Type="Double" />
+    <Property Name="Datecreat" Type="DateTime" Precision="3" />
+    <Property Name="Datechange" Type="DateTime" Precision="3" />
+    <Property Name="Username" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TB_DangNhap">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Usid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tendangnhap" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaPhongban" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="matkhau" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="maquyen" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hovaten" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Slandangnhap" Type="Int64" />
+    <Property Name="trangthai" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbActive">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbCTKM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="NhanSP" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiCT" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Ngaybd" Type="DateTime" Precision="0" />
+    <Property Name="Ngaykt" Type="DateTime" Precision="0" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tbCustomer">
+    <Key>
+      <PropertyRef Name="Debcode" />
+    </Key>
+    <Property Name="Debcode" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Debname" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Debadd" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Classid" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sdf" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Activer" Type="Boolean" />
+    <Property Name="Lastchange" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="datechange" Type="DateTime" Precision="3" />
+    <Property Name="Olddebcode" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbCustomer1">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="DebOption" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbItem">
+    <Key>
+      <PropertyRef Name="Itemcode" />
+    </Key>
+    <Property Name="Itemcode" Type="String" Nullable="false" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="ItemnameEng" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Itemname" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Brand" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Category" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Subbrand" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Unit" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Volumn" Type="Double" />
+    <Property Name="Type" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OldItemcode" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblBaophu">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <Property Name="SLNV" Type="Int32" Nullable="false" />
+    <Property Name="SLDonhang" Type="Int32" Nullable="false" />
+    <Property Name="SLKHMua" Type="Int32" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="Int32" Nullable="false" />
+    <Property Name="SLSKU" Type="Int32" Nullable="false" />
+    <Property Name="TyleKHMua" Type="Double" />
+    <Property Name="TyleDH_KH" Type="Double" />
+    <Property Name="TyleDS_DH" Type="Double" />
+    <Property Name="TyleSKU_DH" Type="Double" />
+  </EntityType>
+  <EntityType Name="tbllog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Manpp" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DateSend" Type="DateTime" Precision="3" />
+    <Property Name="Dateupdate" Type="DateTime" Precision="3" />
+    <Property Name="datemax" Type="DateTime" Precision="3" />
+    <Property Name="users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbLoaiCT">
+    <Key>
+      <PropertyRef Name="LoaiCT" />
+    </Key>
+    <Property Name="LoaiCT" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Diengiai" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbPeriod">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="DateFrom" Type="DateTime" Precision="0" />
+    <Property Name="DateTo" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="Lock" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBQuyenUser">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Tendangnhap" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bophan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Customer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbSalesIN">
+    <Key>
+      <PropertyRef Name="UNID" />
+    </Key>
+    <Property Name="Debcode" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="UNID" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Datum" Type="DateTime" Precision="0" />
+    <Property Name="Ordernr" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Invnr" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Itemcode" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Quantity" Type="Double" />
+    <Property Name="AmountRBP" Type="Double" />
+    <Property Name="AmountINV" Type="Double" />
+    <Property Name="Transactiontype" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Double" />
+    <Property Name="sYear" Type="Double" />
+  </EntityType>
+  <EntityType Name="tbWeek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Tuan" Type="Int16" />
+    <Property Name="ChuKy" Type="Int16" />
+    <Property Name="Nam" Type="Int16" />
+    <Property Name="NgayBD" Type="DateTime" Precision="0" />
+    <Property Name="NgayKT" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tonkho22">
+    <Key>
+      <PropertyRef Name="manpp" />
+    </Key>
+    <Property Name="manpp" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="thang" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="tondau" Type="Double" />
+    <Property Name="nhaphangban" Type="Double" />
+    <Property Name="nhapKM" Type="Double" />
+    <Property Name="xuathangban" Type="Double" />
+    <Property Name="xuatkm" Type="Double" />
+    <Property Name="toncuoi" Type="Double" />
+  </EntityType>
+  <EntityType Name="CTNhapXuat">
+    <Key>
+      <PropertyRef Name="Itemcode" />
+    </Key>
+    <Property Name="Itemcode" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="NhapXuat">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="XuatHB" Type="Double" Nullable="false" />
+    <Property Name="XuatKM" Type="Double" Nullable="false" />
+    <Property Name="NhapHB" Type="Double" Nullable="false" />
+    <Property Name="NhapKM" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="v_Item">
+    <Key>
+      <PropertyRef Name="MaSP" />
+      <PropertyRef Name="LoaiSP" />
+      <PropertyRef Name="Nhanphu" />
+      <PropertyRef Name="Gia" />
+      <PropertyRef Name="Dungtich" />
+      <PropertyRef Name="Loai" />
+    </Key>
+    <Property Name="MaSP" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="TenSPEn" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="NhanSP" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="17" Unicode="false" FixedLength="false" />
+    <Property Name="Nhanphu" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="DVT" Type="String" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="Gia" Type="Double" Nullable="false" />
+    <Property Name="Dungtich" Type="Double" Nullable="false" />
+    <Property Name="Loai" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="v_SalesDailyMT">
+    <Key>
+      <PropertyRef Name="orderno" />
+      <PropertyRef Name="rbp" />
+      <PropertyRef Name="quantity" />
+      <PropertyRef Name="amountrbp" />
+      <PropertyRef Name="transactiontype" />
+      <PropertyRef Name="spreiod" />
+      <PropertyRef Name="syear" />
+    </Key>
+    <Property Name="Debcode" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="UNID" Type="String" MaxLength="64" Unicode="false" FixedLength="false" />
+    <Property Name="datum" Type="DateTime" Precision="3" />
+    <Property Name="orderno" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="docnumber" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="oms25" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="artcode" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="rbp" Type="Double" Nullable="false" />
+    <Property Name="quantity" Type="Double" Nullable="false" />
+    <Property Name="amountrbp" Type="Double" Nullable="false" />
+    <Property Name="amountinv" Type="Double" />
+    <Property Name="transactiontype" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="spreiod" Type="Int32" Nullable="false" />
+    <Property Name="syear" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vw_NX">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="XuatDHB" />
+      <PropertyRef Name="XuatDKM" />
+      <PropertyRef Name="XuatTU" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+      <PropertyRef Name="NhapTU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="XuatHB" Type="Double" Nullable="false" />
+    <Property Name="XuatKM" Type="Double" Nullable="false" />
+    <Property Name="XuatDHB" Type="Double" Nullable="false" />
+    <Property Name="XuatDKM" Type="Double" Nullable="false" />
+    <Property Name="XuatTU" Type="Double" Nullable="false" />
+    <Property Name="NhapHB" Type="Double" Nullable="false" />
+    <Property Name="NhapKM" Type="Double" Nullable="false" />
+    <Property Name="NhapTU" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vw_webFull">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="210" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="vwDataHN">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sdf" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="210" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="String" MaxLength="36" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+  </EntityType>
+  <EntityType Name="vwdoanhsofull">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="diachii" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="String" MaxLength="36" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+  </EntityType>
+  <EntityType Name="vwSDFullData">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sdf" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="210" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="String" MaxLength="36" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+  </EntityType>
+  <EntityType Name="vwSDTonSKU">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="XuatDHB" />
+      <PropertyRef Name="XuatDKM" />
+      <PropertyRef Name="XuatTU" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+      <PropertyRef Name="NhapTU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+    <Property Name="XuatHB" Type="Double" Nullable="false" />
+    <Property Name="XuatKM" Type="Double" Nullable="false" />
+    <Property Name="XuatDHB" Type="Double" Nullable="false" />
+    <Property Name="XuatDKM" Type="Double" Nullable="false" />
+    <Property Name="XuatTU" Type="Double" Nullable="false" />
+    <Property Name="NhapHB" Type="Double" Nullable="false" />
+    <Property Name="NhapKM" Type="Double" Nullable="false" />
+    <Property Name="NhapTU" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="vwSDXuatNhapTon">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="XuatTU" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+      <PropertyRef Name="NhapTU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="3" />
+    <Property Name="MaSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+    <Property Name="XuatHB" Type="Double" Nullable="false" />
+    <Property Name="XuatKM" Type="Double" Nullable="false" />
+    <Property Name="XuatTU" Type="Double" Nullable="false" />
+    <Property Name="NhapHB" Type="Double" Nullable="false" />
+    <Property Name="NhapKM" Type="Double" Nullable="false" />
+    <Property Name="NhapTU" Type="Double" Nullable="false" />
+  </EntityType>
+</Schema>

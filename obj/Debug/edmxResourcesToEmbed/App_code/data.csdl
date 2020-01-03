@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SSMModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SSMEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="WebGetDS" ReturnType="Collection(SSMModel.WebGetDS_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="WebGetDS_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+  </ComplexType>
+</Schema>

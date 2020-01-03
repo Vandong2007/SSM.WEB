@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="WEB.SSM.Global_asax" Language="VB" %>

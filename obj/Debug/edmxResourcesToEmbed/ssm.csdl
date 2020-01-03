@@ -1,0 +1,2249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SSM2014Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SSM2014Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="bpnpps" EntityType="SSM2014Model.bpnpp" />
+    <EntitySet Name="SDDoanhsoes" EntityType="SSM2014Model.SDDoanhso" />
+    <EntitySet Name="SDDoanhso2" EntityType="SSM2014Model.SDDoanhso2" />
+    <EntitySet Name="SDKhachhangs" EntityType="SSM2014Model.SDKhachhang" />
+    <EntitySet Name="SDKhachhang1" EntityType="SSM2014Model.SDKhachhang1" />
+    <EntitySet Name="SDKhachhangNVs" EntityType="SSM2014Model.SDKhachhangNV" />
+    <EntitySet Name="SDNhanviens" EntityType="SSM2014Model.SDNhanvien" />
+    <EntitySet Name="SDNhanvien1" EntityType="SSM2014Model.SDNhanvien1" />
+    <EntitySet Name="SDTondaus" EntityType="SSM2014Model.SDTondau" />
+    <EntitySet Name="StockHistories" EntityType="SSM2014Model.StockHistory" />
+    <EntitySet Name="sysdiagrams" EntityType="SSM2014Model.sysdiagram" />
+    <EntitySet Name="TB_DangNhap" EntityType="SSM2014Model.TB_DangNhap" />
+    <EntitySet Name="tbActives" EntityType="SSM2014Model.tbActive" />
+    <EntitySet Name="tbCTKMs" EntityType="SSM2014Model.tbCTKM" />
+    <EntitySet Name="tbCustomers" EntityType="SSM2014Model.tbCustomer" />
+    <EntitySet Name="tbCustomerS1" EntityType="SSM2014Model.tbCustomer1" />
+    <EntitySet Name="tbItems" EntityType="SSM2014Model.tbItem" />
+    <EntitySet Name="tblBaophus" EntityType="SSM2014Model.tblBaophu" />
+    <EntitySet Name="tbllogs" EntityType="SSM2014Model.tbllog" />
+    <EntitySet Name="tblMaterial_Temp" EntityType="SSM2014Model.tblMaterial_Temp" />
+    <EntitySet Name="tbLoaiCTs" EntityType="SSM2014Model.tbLoaiCT" />
+    <EntitySet Name="tbPeriods" EntityType="SSM2014Model.tbPeriod" />
+    <EntitySet Name="tbPeriodOpenHs" EntityType="SSM2014Model.tbPeriodOpenH" />
+    <EntitySet Name="TBQuyenUsers" EntityType="SSM2014Model.TBQuyenUser" />
+    <EntitySet Name="tbSalesINs" EntityType="SSM2014Model.tbSalesIN" />
+    <EntitySet Name="tbWeeks" EntityType="SSM2014Model.tbWeek" />
+    <EntitySet Name="tonkho22" EntityType="SSM2014Model.tonkho22" />
+    <EntitySet Name="Vw_webFull" EntityType="SSM2014Model.Vw_webFull" />
+    <EntitySet Name="vwDataHNs" EntityType="SSM2014Model.vwDataHN" />
+    <EntitySet Name="vwSDXuatNhapTons" EntityType="SSM2014Model.vwSDXuatNhapTon" />
+    <FunctionImport Name="change_User" ReturnType="Collection(Decimal)">
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="Passwordnew" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="chayds">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="chayds1">
+      <Parameter Name="thang" Mode="In" Type="Int32" />
+      <Parameter Name="nam" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="chaydsnpp" ReturnType="Collection(Int32)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="manpp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="deletedata">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="thang" Mode="In" Type="Int32" />
+      <Parameter Name="nam" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="getctkm" ReturnType="Collection(SSM2014Model.getctkm_Result)" />
+    <FunctionImport Name="GetDailySale" ReturnType="Collection(SSM2014Model.GetDailySale_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="NgayBD" Mode="In" Type="DateTime" />
+      <Parameter Name="NgayKT" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Getnx" ReturnType="Collection(SSM2014Model.Getnx_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Getnx1" ReturnType="Collection(SSM2014Model.Getnx1_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRDFullData" ReturnType="Collection(SSM2014Model.GetRDFullData_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuDH" ReturnType="Collection(SSM2014Model.GetRGBaophuDH_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuKH" ReturnType="Collection(SSM2014Model.GetRGBaophuKH_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuNPP" ReturnType="Collection(SSM2014Model.GetRGBaophuNPP_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuNPP2" ReturnType="Collection(SSM2014Model.GetRGBaophuNPP2_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="thang" Mode="In" Type="String" />
+      <Parameter Name="nam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuNV" ReturnType="Collection(SSM2014Model.GetRGBaophuNV_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuNV2" ReturnType="Collection(SSM2014Model.GetRGBaophuNV2_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="thang" Mode="In" Type="String" />
+      <Parameter Name="nam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGBaophuNV3" ReturnType="Collection(SSM2014Model.GetRGBaophuNV3_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="thang" Mode="In" Type="String" />
+      <Parameter Name="nam" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGDraft" ReturnType="Collection(SSM2014Model.GetRGDraft_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGNhanvient" ReturnType="Collection(SSM2014Model.GetRGNhanvient_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGNhapxuat" ReturnType="Collection(SSM2014Model.GetRGNhapxuat_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetRGNhapxuatTon" ReturnType="Collection(SSM2014Model.GetRGNhapxuatTon_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDBaophu" ReturnType="Collection(SSM2014Model.GetSDBaophu_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDBaophuKH" ReturnType="Collection(SSM2014Model.GetSDBaophuKH_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDBaophuNPP" ReturnType="Collection(SSM2014Model.GetSDBaophuNPP_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDBaophuSKU" ReturnType="Collection(SSM2014Model.GetSDBaophuSKU_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDCheckCTKM" ReturnType="Collection(SSM2014Model.GetSDCheckCTKM_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDDraft" ReturnType="Collection(SSM2014Model.GetSDDraft_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDDraft_Edit" ReturnType="Collection(SSM2014Model.GetSDDraft_Edit_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDFullData" ReturnType="Collection(SSM2014Model.GetSDFullData_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDKHKhongmua" ReturnType="Collection(SSM2014Model.GetSDKHKhongmua_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetSDXuatNhapTonSKU" ReturnType="Collection(SSM2014Model.GetSDXuatNhapTonSKU_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophu" ReturnType="Collection(SSM2014Model.GetTHBaophu_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophuKH" ReturnType="Collection(SSM2014Model.GetTHBaophuKH_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophuNPP" ReturnType="Collection(SSM2014Model.GetTHBaophuNPP_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophuNPPvung" ReturnType="Collection(SSM2014Model.GetTHBaophuNPPvung_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophuSKU" ReturnType="Collection(SSM2014Model.GetTHBaophuSKU_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHBaophuVung" ReturnType="Collection(SSM2014Model.GetTHBaophuVung_Result)">
+      <Parameter Name="RE" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHCTKM" ReturnType="Collection(SSM2014Model.GetTHCTKM_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHFullData" ReturnType="Collection(SSM2014Model.GetTHFullData_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHFullDatahn" ReturnType="Collection(SSM2014Model.GetTHFullDatahn_Result)">
+      <Parameter Name="rg" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHFullDatahn2" ReturnType="Collection(SSM2014Model.GetTHFullDatahn2_Result)">
+      <Parameter Name="rg" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHFullDataTTien" ReturnType="Collection(SSM2014Model.GetTHFullDataTTien_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHNhapXuatTon">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHNhapXuatTonSKU" ReturnType="Collection(SSM2014Model.GetTHNhapXuatTonSKU_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHNhapXuatTonSKU2" ReturnType="Collection(SSM2014Model.GetTHNhapXuatTonSKU2_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTHNhapXuatTonTuan" ReturnType="Collection(SSM2014Model.GetTHNhapXuatTonTuan_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GetTonkho_SKU" ReturnType="Collection(SSM2014Model.GetTonkho_SKU_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Gettonkhochihang" ReturnType="Collection(SSM2014Model.Gettonkhochihang_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Gettonkhochihang3">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="importctkm" />
+    <FunctionImport Name="IMPORTDULIEU" ReturnType="Collection(Boolean)">
+      <Parameter Name="files" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IMPORTDULIEU2" ReturnType="Collection(Int32)">
+      <Parameter Name="Npp" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IMPORTKHACHHANG" ReturnType="Collection(Boolean)">
+      <Parameter Name="files" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="IMPORTNhanVien" ReturnType="Collection(Boolean)">
+      <Parameter Name="files" Mode="In" Type="String" />
+      <Parameter Name="username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Insert_User" ReturnType="Collection(Int32)">
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="dep" Mode="In" Type="String" />
+      <Parameter Name="name" Mode="In" Type="String" />
+      <Parameter Name="loai" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="insetdata">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="MaXK" Mode="In" Type="String" />
+      <Parameter Name="Ngay" Mode="In" Type="DateTime" />
+      <Parameter Name="MaNV" Mode="In" Type="String" />
+      <Parameter Name="MaKH" Mode="In" Type="String" />
+      <Parameter Name="Type" Mode="In" Type="String" />
+      <Parameter Name="MaSP" Mode="In" Type="String" />
+      <Parameter Name="Soluong" Mode="In" Type="Double" />
+      <Parameter Name="Dongia" Mode="In" Type="Double" />
+      <Parameter Name="TyleCK" Mode="In" Type="Single" />
+      <Parameter Name="Khuyenmai" Mode="In" Type="Double" />
+      <Parameter Name="TienCK" Mode="In" Type="Double" />
+      <Parameter Name="Thanhtien" Mode="In" Type="Double" />
+      <Parameter Name="Loai" Mode="In" Type="String" />
+      <Parameter Name="MaCT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Kiemtratonkho" ReturnType="Collection(SSM2014Model.Kiemtratonkho_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SSM2014Model.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SSM2014Model.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="spTB_DangNhap_KiemTraDangNhap" ReturnType="Collection(Int32)">
+      <Parameter Name="TenDangNhap" Mode="In" Type="String" />
+      <Parameter Name="MatKhau" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="upctkm" ReturnType="Collection(Int32)">
+      <Parameter Name="MaCT" Mode="In" Type="String" />
+      <Parameter Name="TenCT" Mode="In" Type="String" />
+      <Parameter Name="NhanSP" Mode="In" Type="String" />
+      <Parameter Name="LoaiCT" Mode="In" Type="String" />
+      <Parameter Name="TyleCK" Mode="In" Type="Single" />
+      <Parameter Name="ngaybd" Mode="In" Type="DateTime" />
+      <Parameter Name="Ngaykt" Mode="In" Type="DateTime" />
+      <Parameter Name="type" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebBaophuNV" ReturnType="Collection(SSM2014Model.WebBaophuNV_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Webdeletedata" ReturnType="Collection(Int32)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Webdeletedata1" ReturnType="Collection(Int32)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WEBEXPORT" ReturnType="Collection(Boolean)">
+      <Parameter Name="file" Mode="In" Type="String" />
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="String" />
+      <Parameter Name="DenNgay" Mode="In" Type="String" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetBaophuNPP" ReturnType="Collection(SSM2014Model.WebGetBaophuNPP_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetDoanhso" ReturnType="Collection(SSM2014Model.WebGetDoanhso_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetDoanhsonv" ReturnType="Collection(SSM2014Model.WebGetDoanhsonv_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetDS" ReturnType="Collection(SSM2014Model.WebGetDS_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetNhapxuatNPP" ReturnType="Collection(SSM2014Model.WebGetNhapxuatNPP_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetNhapxuatTon" ReturnType="Collection(SSM2014Model.WebGetNhapxuatTon_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetNhapxuatTon1" ReturnType="Collection(SSM2014Model.WebGetNhapxuatTon1_Result)">
+      <Parameter Name="TuNgay1" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay1" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetNhapxuattong" ReturnType="Collection(SSM2014Model.WebGetNhapxuattong_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetRGDraft" ReturnType="Collection(SSM2014Model.WebGetRGDraft_Result)">
+      <Parameter Name="re" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetSaleIn" ReturnType="Collection(SSM2014Model.WebGetSaleIn_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetSDDraft" ReturnType="Collection(SSM2014Model.WebGetSDDraft_Result)">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetTHCTKM" ReturnType="Collection(SSM2014Model.WebGetTHCTKM_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="WebGetTHCTKM1" ReturnType="Collection(SSM2014Model.WebGetTHCTKM1_Result)">
+      <Parameter Name="TuNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Webtonkhongay" ReturnType="Collection(SSM2014Model.Webtonkhongay_Result)">
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="Username" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="xoatonkho">
+      <Parameter Name="MaNPP" Mode="In" Type="String" />
+      <Parameter Name="DenNgay" Mode="In" Type="DateTime" />
+      <Parameter Name="ngayupdate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="bpnpp">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <Property Name="SLNV" Type="Int32" Nullable="false" />
+    <Property Name="SLDonhang" Type="Int32" Nullable="false" />
+    <Property Name="SLKHMua" Type="Int32" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="Int32" Nullable="false" />
+    <Property Name="SLSKU" Type="Int32" Nullable="false" />
+    <Property Name="TyleKHMua" Type="Double" />
+    <Property Name="TyleDH_KH" Type="Double" />
+    <Property Name="TyleDS_DH" Type="Double" />
+    <Property Name="TyleSKU_DH" Type="Double" />
+  </EntityType>
+  <EntityType Name="SDDoanhso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Soluong" Type="Double" />
+    <Property Name="Dongia" Type="Double" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="USERs" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dates" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="SDDoanhso2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Soluong" Type="Double" />
+    <Property Name="Dongia" Type="Double" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SDKhachhang">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="NgayHD" Type="DateTime" Precision="3" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDKhachhang1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" />
+    <Property Name="NgayHD" Type="DateTime" Precision="3" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDKhachhangNV">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Activer" Type="String" MaxLength="1" Unicode="true" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="SDNhanvien">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Manv" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="Ngayvao" Type="DateTime" Precision="0" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDNhanvien1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Manv" Type="String" Nullable="false" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="Ngaysinh" Type="DateTime" Precision="0" />
+    <Property Name="Ngayvao" Type="DateTime" Precision="0" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Lastchange" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SDTondau">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TonDK" Type="Double" />
+    <Property Name="TonHB" Type="Double" />
+    <Property Name="TonKM" Type="Double" />
+    <Property Name="TonTU" Type="Double" />
+    <Property Name="Id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="StockHistory">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaSP" />
+      <PropertyRef Name="Thang" />
+      <PropertyRef Name="Nam" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Thang" Type="Int32" Nullable="false" />
+    <Property Name="Nam" Type="Int32" Nullable="false" />
+    <Property Name="Gia" Type="Double" />
+    <Property Name="TonDK" Type="Double" />
+    <Property Name="TonDKHB" Type="Double" />
+    <Property Name="TonDKKM" Type="Double" />
+    <Property Name="TonDKTU" Type="Double" />
+    <Property Name="NhapHB" Type="Double" />
+    <Property Name="NhapKM" Type="Double" />
+    <Property Name="XuatHB" Type="Double" />
+    <Property Name="XuatKM" Type="Double" />
+    <Property Name="XuatDHBKM" Type="Double" />
+    <Property Name="NhapTU" Type="Double" />
+    <Property Name="XuatTU" Type="Double" />
+    <Property Name="TonCK" Type="Double" />
+    <Property Name="TonCKHB" Type="Double" />
+    <Property Name="TonCKKM" Type="Double" />
+    <Property Name="TonCKTU" Type="Double" />
+    <Property Name="Datecreat" Type="DateTime" Precision="3" />
+    <Property Name="Datechange" Type="DateTime" Precision="3" />
+    <Property Name="Username" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TB_DangNhap">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Usid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tendangnhap" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaPhongban" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="matkhau" Type="String" Nullable="false" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="maquyen" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="hovaten" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Slandangnhap" Type="Int64" />
+    <Property Name="trangthai" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbActive">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbCTKM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaCT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="NhanSP" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiCT" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="TyleCK" Type="Single" />
+    <Property Name="Ngaybd" Type="DateTime" Precision="0" />
+    <Property Name="Ngaykt" Type="DateTime" Precision="0" />
+    <Property Name="Type" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="tbCustomer">
+    <Key>
+      <PropertyRef Name="Debcode" />
+    </Key>
+    <Property Name="Debcode" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Debname" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Debadd" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Classid" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sdf" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Activer" Type="Boolean" />
+    <Property Name="Lastchange" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="datechange" Type="DateTime" Precision="3" />
+    <Property Name="Olddebcode" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbCustomer1">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="DebOption" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbItem">
+    <Key>
+      <PropertyRef Name="Itemcode" />
+    </Key>
+    <Property Name="Itemcode" Type="String" Nullable="false" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="ItemnameEng" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Itemname" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Brand" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Category" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Subbrand" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Unit" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Volumn" Type="Double" />
+    <Property Name="Type" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OldItemcode" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblBaophu">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Tongtien" Type="Double" Nullable="false" />
+    <Property Name="SLNV" Type="Int32" Nullable="false" />
+    <Property Name="SLDonhang" Type="Int32" Nullable="false" />
+    <Property Name="SLKHMua" Type="Int32" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="Int32" Nullable="false" />
+    <Property Name="SLSKU" Type="Int32" Nullable="false" />
+    <Property Name="TyleKHMua" Type="Double" />
+    <Property Name="TyleDH_KH" Type="Double" />
+    <Property Name="TyleDS_DH" Type="Double" />
+    <Property Name="TyleSKU_DH" Type="Double" />
+  </EntityType>
+  <EntityType Name="tbllog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Manpp" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DateSend" Type="DateTime" Precision="3" />
+    <Property Name="Dateupdate" Type="DateTime" Precision="3" />
+    <Property Name="datemax" Type="DateTime" Precision="3" />
+    <Property Name="users" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblMaterial_Temp">
+    <Key>
+      <PropertyRef Name="MATERIAL" />
+    </Key>
+    <Property Name="MATERIAL" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="TYPEs" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="BRAND" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="GROSS_WEIGHT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="WEIGHT_UNIT" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="VOLUME" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="RBP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="OLD_MATERIAL" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="CATEGORY" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SUB_BRAND" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="VARIANTS" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbLoaiCT">
+    <Key>
+      <PropertyRef Name="LoaiCT" />
+    </Key>
+    <Property Name="LoaiCT" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Diengiai" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbPeriod">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="DateFrom" Type="DateTime" Precision="0" />
+    <Property Name="DateTo" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="Lock" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbPeriodOpenH">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Manpp" Type="String" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="DateFrom" Type="DateTime" Precision="0" />
+    <Property Name="DateTo" Type="DateTime" Precision="0" />
+    <Property Name="DateClose" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="Note" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBQuyenUser">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Tendangnhap" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bophan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Customer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbSalesIN">
+    <Key>
+      <PropertyRef Name="UNID" />
+    </Key>
+    <Property Name="Debcode" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="UNID" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Datum" Type="DateTime" Precision="0" />
+    <Property Name="Ordernr" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Invnr" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Itemcode" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Quantity" Type="Double" />
+    <Property Name="AmountRBP" Type="Double" />
+    <Property Name="AmountINV" Type="Double" />
+    <Property Name="Transactiontype" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Double" />
+    <Property Name="sYear" Type="Double" />
+  </EntityType>
+  <EntityType Name="tbWeek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Tuan" Type="Int16" />
+    <Property Name="ChuKy" Type="Int16" />
+    <Property Name="Nam" Type="Int16" />
+    <Property Name="NgayBD" Type="DateTime" Precision="0" />
+    <Property Name="NgayKT" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tonkho22">
+    <Key>
+      <PropertyRef Name="manpp" />
+    </Key>
+    <Property Name="manpp" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="thang" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="tondau" Type="Double" />
+    <Property Name="nhaphangban" Type="Double" />
+    <Property Name="nhapKM" Type="Double" />
+    <Property Name="xuathangban" Type="Double" />
+    <Property Name="xuatkm" Type="Double" />
+    <Property Name="toncuoi" Type="Double" />
+  </EntityType>
+  <EntityType Name="Vw_webFull">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="210" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="vwDataHN">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TenNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Channel" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Subregion" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Sdf" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Area" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Province" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Territory" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="MaCT" Type="String" MaxLength="210" Unicode="true" FixedLength="false" />
+    <Property Name="TenCT" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="MaXK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MaSP" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="TenSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="NhanSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="LoaiSP" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="TienCK" Type="Double" />
+    <Property Name="SLKM" Type="Double" />
+    <Property Name="Khuyenmai" Type="Double" />
+    <Property Name="SLTU" Type="Double" />
+    <Property Name="TienTU" Type="Double" />
+    <Property Name="SLHB" Type="Double" />
+    <Property Name="Thanhtien" Type="Double" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaKH" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Tenkh" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Diachi" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Phuong" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Quan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Thanhpho" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MaNV" Type="String" MaxLength="8" Unicode="true" FixedLength="false" />
+    <Property Name="Hoten" Type="String" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="sPeriod" Type="Int16" />
+    <Property Name="sYear" Type="Int16" />
+    <Property Name="Loai" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="NgayXK" Type="String" MaxLength="36" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+  </EntityType>
+  <EntityType Name="vwSDXuatNhapTon">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="XuatTU" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+      <PropertyRef Name="NhapTU" />
+    </Key>
+    <Property Name="MaNPP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Ngay" Type="DateTime" Precision="0" />
+    <Property Name="MaSP" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Tuan" Type="Int16" />
+    <Property Name="XuatHB" Type="Double" Nullable="false" />
+    <Property Name="XuatKM" Type="Double" Nullable="false" />
+    <Property Name="XuatTU" Type="Double" Nullable="false" />
+    <Property Name="NhapHB" Type="Double" Nullable="false" />
+    <Property Name="NhapKM" Type="Double" Nullable="false" />
+    <Property Name="NhapTU" Type="Double" Nullable="false" />
+  </EntityType>
+  <ComplexType Name="getctkm_Result">
+    <Property Type="Int32" Name="ID" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="LoaiCT" Nullable="true" MaxLength="4" />
+    <Property Type="Single" Name="TyleCK" Nullable="true" />
+    <Property Type="DateTime" Name="Ngaybd" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Ngaykt" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Type" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="Field1" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="GetDailySale_Result">
+    <Property Type="String" Name="Debcode" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="UNID" Nullable="false" MaxLength="255" />
+    <Property Type="DateTime" Name="Datum" Nullable="true" Precision="16" />
+    <Property Type="String" Name="Ordernr" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Invnr" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Itemcode" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Price" Nullable="true" />
+    <Property Type="Double" Name="Quantity" Nullable="true" />
+    <Property Type="Double" Name="AmountRBP" Nullable="true" />
+    <Property Type="Double" Name="AmountINV" Nullable="true" />
+    <Property Type="String" Name="Transactiontype" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="sPeriod" Nullable="true" />
+    <Property Type="Double" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Getnx_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Getnx1_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="String" Name="Itemname" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ItemnameEng" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Brand" Nullable="true" MaxLength="255" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRDFullData_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="true" MaxLength="2" />
+    <Property Type="DateTime" Name="NgayXK" Nullable="true" Precision="16" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuDH_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Price" Nullable="true" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Tenkh" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Diachi" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Phuong" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Quan" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Thanhpho" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="NgayXK" Nullable="true" MaxLength="36" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuKH_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="true" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="true" />
+    <Property Type="Int32" Name="SLSKU" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuNPP_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLNV" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuNPP2_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLNV" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuNV_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuNV2_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGBaophuNV3_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGDraft_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Dongia" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="GetRGNhanvient_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGNhapxuat_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetRGNhapxuatTon_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDBaophu_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="true" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="true" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="true" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="true" />
+    <Property Type="Double" Name="SLSKU" Nullable="true" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDBaophuKH_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="Double" Name="Tongtien" Nullable="true" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="true" />
+    <Property Type="Int32" Name="SLSKU" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDBaophuNPP_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Tongtien" Nullable="true" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="true" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="true" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="true" />
+    <Property Type="Int32" Name="SLNV" Nullable="true" />
+    <Property Type="Int32" Name="SLSKU" Nullable="true" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDBaophuSKU_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Price" Nullable="true" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Tenkh" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Diachi" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Phuong" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Quan" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Thanhpho" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="NgayXK" Nullable="true" MaxLength="36" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDCheckCTKM_Result">
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Diengiai" Nullable="true" MaxLength="50" />
+    <Property Type="Single" Name="TyleCK" Nullable="true" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="Double" Name="TongKM" Nullable="true" />
+    <Property Type="Double" Name="TongCK" Nullable="true" />
+    <Property Type="Double" Name="TongTT" Nullable="true" />
+    <Property Type="Double" Name="TLCKThuchien" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDDraft_Result">
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Dongia" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="GetSDDraft_Edit_Result">
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Dongia" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="GetSDFullData_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="true" MaxLength="2" />
+    <Property Type="DateTime" Name="NgayXK" Nullable="true" Precision="16" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetSDKHKhongmua_Result">
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Tenkh" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Diachi" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Phuong" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Quan" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Thanhpho" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="GetSDXuatNhapTonSKU_Result">
+    <Property Type="String" Name="MaSP" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophu_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophuKH_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MaKH" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="true" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="true" />
+    <Property Type="Int32" Name="SLSKU" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophuNPP_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLNV" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophuNPPvung_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLNV" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophuSKU_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Price" Nullable="true" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Tenkh" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="Diachi" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Phuong" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Quan" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Thanhpho" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="NgayXK" Nullable="true" MaxLength="36" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHBaophuVung_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHCTKM_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="Single" Name="TyleCK" Nullable="true" />
+    <Property Type="Double" Name="Giatri" Nullable="true" />
+    <Property Type="String" Name="Loai" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="GetTHFullData_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHFullDatahn_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHFullDatahn2_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="tienck" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHFullDataTTien_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="LoaiSP" Nullable="false" MaxLength="255" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="Int16" Name="sPeriod" Nullable="true" />
+    <Property Type="Int16" Name="sYear" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHNhapXuatTonSKU_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHNhapXuatTonSKU2_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTHNhapXuatTonTuan_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Subregion" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Sdf" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Territory" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="String" Name="Itemname" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ItemnameEng" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Brand" Nullable="true" MaxLength="255" />
+    <Property Type="Int16" Name="Tuan" Nullable="true" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="GetTonkho_SKU_Result">
+    <Property Type="String" Name="MaSP" Nullable="false" MaxLength="12" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Gettonkhochihang_Result">
+    <Property Type="String" Name="manpp" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="thang" Nullable="true" MaxLength="60" />
+    <Property Type="Double" Name="tondau" Nullable="true" />
+    <Property Type="Double" Name="nhaphangban" Nullable="true" />
+    <Property Type="Double" Name="nhapKM" Nullable="true" />
+    <Property Type="Double" Name="xuathangban" Nullable="true" />
+    <Property Type="Double" Name="xuatkm" Nullable="true" />
+    <Property Type="Double" Name="toncuoi" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="Kiemtratonkho_Result">
+    <Property Type="String" Name="Channel" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="12" />
+    <Property Type="String" Name="TenSPen" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="WebBaophuNV_Result">
+    <Property Type="String" Name="MaNPP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="Boolean" Name="LamViec" Nullable="false" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetBaophuNPP_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="Tongtien" Nullable="false" />
+    <Property Type="Int32" Name="SLNV" Nullable="false" />
+    <Property Type="Int32" Name="SLDonhang" Nullable="false" />
+    <Property Type="Int32" Name="SLKHMua" Nullable="false" />
+    <Property Type="Int32" Name="SLKHQuanly" Nullable="false" />
+    <Property Type="Int32" Name="SLSKU" Nullable="false" />
+    <Property Type="Double" Name="TyleKHMua" Nullable="true" />
+    <Property Type="Double" Name="TyleDH_KH" Nullable="true" />
+    <Property Type="Double" Name="TyleDS_DH" Nullable="true" />
+    <Property Type="Double" Name="TyleSKU_DH" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetDoanhso_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetDoanhsonv_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="HotenNV" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetDS_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetNhapxuatNPP_Result">
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="TonDau" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatKhac" Nullable="true" />
+    <Property Type="Double" Name="TonCuoi" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetNhapxuatTon_Result">
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetNhapxuatTon1_Result">
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="TonDKTU" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="NhapTU" Nullable="true" />
+    <Property Type="Double" Name="XuatTU" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TonCKTU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetNhapxuattong_Result">
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="TonDK" Nullable="true" />
+    <Property Type="Double" Name="TonDKHB" Nullable="true" />
+    <Property Type="Double" Name="TonDKKM" Nullable="true" />
+    <Property Type="Double" Name="NhapHB" Nullable="true" />
+    <Property Type="Double" Name="NhapKM" Nullable="true" />
+    <Property Type="Double" Name="XuatHB" Nullable="true" />
+    <Property Type="Double" Name="XuatKM" Nullable="true" />
+    <Property Type="Double" Name="XuatDHBKM" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetRGDraft_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Dongia" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="WebGetSaleIn_Result">
+    <Property Type="String" Name="Debcode" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Debname" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="RBP" Nullable="true" />
+    <Property Type="Double" Name="RBPfree" Nullable="true" />
+    <Property Type="Double" Name="INV" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="WebGetSDDraft_Result">
+    <Property Type="DateTime" Name="Ngay" Nullable="true" Precision="16" />
+    <Property Type="String" Name="MaXK" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MaKH" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="MaNV" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="Hoten" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="16" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Dongia" Nullable="true" />
+    <Property Type="Double" Name="SLHB" Nullable="true" />
+    <Property Type="Double" Name="Thanhtien" Nullable="true" />
+    <Property Type="Double" Name="SLKM" Nullable="true" />
+    <Property Type="Double" Name="Khuyenmai" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="SLTU" Nullable="true" />
+    <Property Type="Double" Name="TienTU" Nullable="true" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="WebGetTHCTKM_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="Single" Name="TyleCK" Nullable="true" />
+    <Property Type="Double" Name="DoanhSO" Nullable="true" />
+    <Property Type="Double" Name="KM" Nullable="true" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="WebGetTHCTKM1_Result">
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaCT1" Nullable="true" MaxLength="210" />
+    <Property Type="String" Name="TenCT" Nullable="true" MaxLength="255" />
+    <Property Type="Single" Name="TyleCK" Nullable="true" />
+    <Property Type="Double" Name="DoanhSO" Nullable="true" />
+    <Property Type="Double" Name="KM" Nullable="true" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Province" Nullable="true" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="Webtonkhongay_Result">
+    <Property Type="String" Name="Region" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MaNPP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TenNPP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TenSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="NhanSP" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DVT" Nullable="true" MaxLength="255" />
+    <Property Type="Double" Name="Gia" Nullable="true" />
+    <Property Type="Double" Name="TonCK" Nullable="true" />
+    <Property Type="Double" Name="TienCK" Nullable="true" />
+    <Property Type="Double" Name="TonCKHB" Nullable="true" />
+    <Property Type="Double" Name="TienCKHB" Nullable="true" />
+    <Property Type="Double" Name="TonCKKM" Nullable="true" />
+    <Property Type="Double" Name="TienCKKM" Nullable="true" />
+  </ComplexType>
+</Schema>

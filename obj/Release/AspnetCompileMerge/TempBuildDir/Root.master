@@ -1,0 +1,145 @@
+﻿<%@ Master Language="VB"  AutoEventWireup="true" CodeBehind="Root.master.vb" Inherits="WEB.SSM.RootMaster" %>
+
+<%-- DXCOMMENT: Page Root.master is a master page that contains the root layout (it includes Header, Cental Area, and Footer) --%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> EVEREST V2 FOR SERVER</title>
+      <link rel="shortcut icon" href="~/Content/Images/favicon.ico" />
+   <link rel="icon" type="image/gif" href="animated_favicon1.gif" />
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+<%--   	<link id="bootstrap-style" href="css/bootstrap.min.css" rel="stylesheet"/> 
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
+	<link   href="css/style.css" rel="stylesheet"/>
+ 
+	<link  href="css/style-responsive.css" rel="stylesheet"/>
+ --%>
+</head>
+<body runat="server" id="Body">
+    <form id="form1" runat="server">
+    <dx:ASPxSplitter ID="ASPxSplitter1" runat="server" AllowResize="False" Orientation="Vertical"
+        FullscreenMode="True" SeparatorVisible="False" Height="100%" Width="100%">
+        <Styles>
+            <Pane>
+                <Paddings Padding="0px"   />
+            
+                <Border BorderWidth="0px" />
+            </Pane>
+        </Styles>
+        <Panes>
+            <dx:SplitterPane Name="Header" Size="83px" MinSize="83px">
+                <PaneStyle CssClass="headerPane">
+                    <BorderBottom BorderWidth="1px" />
+                </PaneStyle>
+                <ContentCollection>
+                    <dx:SplitterContentControl ID="SplitterContentControl1" runat="server">
+                        <div class="headerTop">
+                            <div class="templateTitle">  
+
+                                <a>EVEREST SYSTEM SERVER</a></div>
+                            <div class="loginControl">
+                                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                    <AnonymousTemplate>
+                                        <a href="~/Account/Login.aspx" runat="server" id="loginLink">Đăng Nhập</a> 
+										| 
+										<a href="~/Account/Register.aspx" runat="server" id="registerLink">Đăng ký</a>
+                                    </AnonymousTemplate>
+                                   <%-- <LoggedInTemplate>
+                                        Chào mừng <span class="bold"    href="~/Account/ChangePassword.aspx" title="Manage your account">
+                                            <asp:LoginName ID="HeadLoginName" runat="server"   />
+                                        </span>! [
+                                        <asp:LoginStatus ID="HeadLoginStatus" runat="server"  LogoutAction="Redirect" LogoutText="Đăng Xuất"
+                                            LogoutPageUrl="~/Account/Login.aspx" />
+                                        ]
+                                    </LoggedInTemplate>--%>
+                                    <LoggedInTemplate>
+                            <p>
+                                Hello, <a id="A1" runat="server" class="username" href="~/Account/ChangePassword.aspx" title="Manage your account">
+                                    <asp:LoginName ID="HeadLoginName" runat="server" CssClass="username" />
+                                </a>!
+                                <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/Account/Login.aspx" />
+                            </p>
+                        </LoggedInTemplate>
+                                </asp:LoginView>
+                            </div>
+                        </div>
+                        <div class="headerMenu">
+                            <%-- DXCOMMENT: Configure the header menu --%>
+<dx:ASPxMenu ID="ASPxMenu1" runat="server" RenderMode="Lightweight" Width="100%"
+    Theme="Glass" DataSourceID="XmlDataSourceHeader">
+    <Border BorderWidth="0px" />
+    <BorderTop BorderWidth="1px" />
+</dx:ASPxMenu>
+
+
+                        </div>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+            <dx:SplitterPane Name="Content" MinSize="375px" ScrollBars="Auto">
+				<PaneStyle CssClass="mainContentPane">
+<BorderBottom BorderWidth="1px"></BorderBottom>
+                </PaneStyle>
+                <ContentCollection>
+                    <dx:SplitterContentControl ID="SplitterContentControl3" runat="server" SupportsDisabledAttribute="True">
+                        <asp:ContentPlaceHolder ID="Content" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+                <PaneStyle BackColor="white">
+                    <BorderBottom BorderWidth="1px" />
+                </PaneStyle>
+            </dx:SplitterPane>
+
+            <dx:SplitterPane Name="Footer" Size="50px" PaneStyle-CssClass="footerPane" MinSize="20px">
+<PaneStyle CssClass="footerPane"></PaneStyle>
+                <ContentCollection>
+                    <dx:SplitterContentControl ID="SplitterContentControl4" runat="server">
+
+                        <div class="footerMenu">
+                            <table>
+                                <tr>
+                                  
+                                  
+                                    <td>   
+                            <dx:ASPxLabel ID="ASPxLabel2"  runat="server" >
+                               
+                            </dx:ASPxLabel> 
+                                       <%-- <caption>--%>
+                                       <%--' </caption>--%>
+           
+                                        <%--<caption>--%>
+                                            <a href="../Mobile/sales.aspx">
+                                            <img alt="" src="../mobile/images/phone_sound.png"/> </a>
+                                      <%--  </caption>--%>
+           
+                                    </td> 
+                                </tr>
+                                <tr>
+                                  <td>  </td> 
+                                </tr>
+                            </table>
+                             
+                        </div>
+                        <div>
+                          <a>  Đã có    <strong>   <%=Application("count_visit").ToString()%>  </strong> lượt xem </a>
+                          
+                        </div>
+                       
+                       
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+        </Panes>
+    </dx:ASPxSplitter>
+	
+<%-- DXCOMMENT: Configure a datasource for the header menu --%>
+<asp:XmlDataSource ID="XmlDataSourceHeader" runat="server" DataFile="~/App_Data/TopMenu.xml"
+    XPath="/items/*"></asp:XmlDataSource>
+<asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/TopMenu1.xml"
+    XPath="/items/*"></asp:XmlDataSource>
+	
+    </form>
+</body>
+</html>

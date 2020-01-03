@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="WEB.SSM.ssm_service" CodeBehind="ssm_service.svc.vb" %>

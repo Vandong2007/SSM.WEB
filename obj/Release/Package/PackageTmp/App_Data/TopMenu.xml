@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Trang Chủ" NavigateUrl="~/Default.aspx" />
+  <item Text="Doanh Số" NavigateUrl="~/SALES/DoanhSO.aspx"  />
+  <MenuItem Text="Hệ Thống">
+	<item Text="Danh Sách User" NavigateUrl="~/Account/DsUser.aspx" />
+    <item Text="List user" NavigateUrl="~/Account/List_User.aspx" />
+    <item Text="Upload số từ npp" NavigateUrl="~/SYSTEM/updatesoban.aspx"/>
+  </MenuItem>
+  <item Text="Đặt Hàng" NavigateUrl="~/Dathang/Donhang.aspx"/>
+   <item Text="Giới thiệu" NavigateUrl="~/about.aspx"/>
+<MenuItem Text="Moblie PULSE ">
+<item Text="Beat Management" NavigateUrl="http://124.158.12.93:9090/retailLink/salesManagerDashboard/index"/>
+ <item Text="Doanh số DMS" NavigateUrl="~/DMS/"/>
+ <item Text="Sale Man Hoat động" NavigateUrl="~/DMS/SaleMenActiver.aspx"/>
+ <item Text="DMS to Everest" NavigateUrl="~/DMS/ReportConverted.aspx.aspx"/>
+ 
+</MenuItem>
+  <item Text=" " />
+</items>

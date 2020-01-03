@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Root.master" AutoEventWireup="false" CodeBehind="homes.master.vb" Inherits="WEB.SSM.homes" %>
+<%--<link rel="shortcut icon" href="Content/Images/logo.icon.png" />--%>
+<asp:Content ID="Content1" ContentPlaceHolderID="Content" runat="server">
+    <dx:ASPxSplitter ID="ASPxSplitter2" runat="server"  Height="100%" Width ="100%">
+        
+        <Panes> 
+            <dx:SplitterPane Name="ContentLeft" ShowCollapseBackwardButton="True" Size="18%" ScrollBars="Auto">
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server" >
+                      <div class="leftPanel">
+                            <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" AutoCollapse="True" DataSourceID="XmlDataSourceLeft" EnableAnimation="True" RenderMode="Lightweight" Width="100%">
+                                <Paddings Padding="0px" /> 
+                                <Border BorderWidth="0px" />
+                            </dx:ASPxNavBar>
+                        </div>
+                        <asp:XmlDataSource ID="XmlDataSourceLeft" runat="server" DataFile="~/App_Data/SideMenu.xml"
+    XPath="/menu/*"> </asp:XmlDataSource>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+            <dx:SplitterPane Name="ContentCenter" ScrollBars="Auto">
+                <Separators Visible="True">
+                </Separators>
+                <ContentCollection>
+                    <dx:SplitterContentControl runat="server">
+                       <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </dx:SplitterContentControl>
+                </ContentCollection>
+            </dx:SplitterPane>
+        </Panes>
+    </dx:ASPxSplitter>
+    
+ 
+</asp:Content>

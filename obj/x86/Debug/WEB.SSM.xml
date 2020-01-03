@@ -1,0 +1,5285 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WEB.SSM
+</name>
+</assembly>
+<members>
+<member name="F:WEB.SSM.DsUser.lstDanhSach">
+	<summary>
+lstDanhSach control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.pcCreateAccount">
+	<summary>
+pcCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.PopupControlContentControl2">
+	<summary>
+PopupControlContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.PanelContent2">
+	<summary>
+PanelContent2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.lblUsername2">
+	<summary>
+lblUsername2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbUsername">
+	<summary>
+tbUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.lblPass2">
+	<summary>
+lblPass2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbPass1">
+	<summary>
+tbPass1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.lblConfPass2">
+	<summary>
+lblConfPass2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbhovaten">
+	<summary>
+tbhovaten control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.lblEmail">
+	<summary>
+lblEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbEmail">
+	<summary>
+tbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.ASPxLabel1">
+	<summary>
+ASPxLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbbophan">
+	<summary>
+tbbophan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.ASPxLabel2">
+	<summary>
+ASPxLabel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbRegion">
+	<summary>
+tbRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.ASPxLabel3">
+	<summary>
+ASPxLabel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbArea">
+	<summary>
+tbArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.ASPxLabel4">
+	<summary>
+ASPxLabel4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.tbcus">
+	<summary>
+tbcus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.btCreate">
+	<summary>
+btCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.btCancel2">
+	<summary>
+btCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DsUser.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.List_User.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.List_User.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.List_User.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.List_User.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.export">
+	<summary>
+export control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxButton2">
+	<summary>
+ASPxButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.pnlUploadMessage">
+	<summary>
+pnlUploadMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.lnkDownloadYourFile">
+	<summary>
+lnkDownloadYourFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.pcCreateAccount">
+	<summary>
+pcCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.PopupControlContentControl2">
+	<summary>
+PopupControlContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.PanelContent2">
+	<summary>
+PanelContent2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.EBrand">
+	<summary>
+EBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ENhan">
+	<summary>
+ENhan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPmui">
+	<summary>
+ASPmui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxSize">
+	<summary>
+ASPxSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxloai">
+	<summary>
+ASPxloai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.ASPxItem">
+	<summary>
+ASPxItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.btCreate">
+	<summary>
+btCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.btCancel2">
+	<summary>
+btCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.SqlNhan">
+	<summary>
+SqlNhan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.Sqlmui">
+	<summary>
+Sqlmui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.Sqlsize">
+	<summary>
+Sqlsize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieugoc.SqlItem">
+	<summary>
+SqlItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DSKhachhangs.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WEB.SSM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WEB.SSM.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WEB.SSM.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:WEB.SSM.SanPham.pageControl">
+	<summary>
+pageControl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.ContentControl1">
+	<summary>
+ContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.Sqlmui">
+	<summary>
+Sqlmui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.SqlNhan">
+	<summary>
+SqlNhan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.ASPxGridViewExporter2">
+	<summary>
+ASPxGridViewExporter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.btnXlsxExport2">
+	<summary>
+btnXlsxExport2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.ASPxGridView2">
+	<summary>
+ASPxGridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.SanPham.SqlItemGrp">
+	<summary>
+SqlItemGrp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.lblBophan">
+	<summary>
+lblBophan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.CbPhongban">
+	<summary>
+CbPhongban control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.tbUserName">
+	<summary>
+tbUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.ASPxLabel1">
+	<summary>
+ASPxLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.tbhovaten">
+	<summary>
+tbhovaten control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.lblEmail">
+	<summary>
+lblEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.tbEmail">
+	<summary>
+tbEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.lblPassword">
+	<summary>
+lblPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.tbPassword">
+	<summary>
+tbPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.lblConfirmPassword">
+	<summary>
+lblConfirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.tbConfirmPassword">
+	<summary>
+tbConfirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Register.btnCreateUser">
+	<summary>
+btnCreateUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.ASPxPivotGridExporter2">
+	<summary>
+ASPxPivotGridExporter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.ASPxPivotGrid2">
+	<summary>
+ASPxPivotGrid2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldDebcode1">
+	<summary>
+fieldDebcode1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldDebname1">
+	<summary>
+fieldDebname1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRegion1">
+	<summary>
+fieldRegion1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldArea1">
+	<summary>
+fieldArea1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldBrand1">
+	<summary>
+fieldBrand1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldcategory1">
+	<summary>
+fieldcategory1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRBP1">
+	<summary>
+fieldRBP1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldINV1">
+	<summary>
+fieldINV1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRBPfree1">
+	<summary>
+fieldRBPfree1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.btnXlsxExport0">
+	<summary>
+btnXlsxExport0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldDebcode">
+	<summary>
+fieldDebcode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldDebname">
+	<summary>
+fieldDebname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.PBrand">
+	<summary>
+PBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.Category">
+	<summary>
+Category control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRBP">
+	<summary>
+fieldRBP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldRBPfree">
+	<summary>
+fieldRBPfree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.fieldINV">
+	<summary>
+fieldINV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.defauldt.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.Body">
+	<summary>
+Body control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.ASPxSplitter1">
+	<summary>
+ASPxSplitter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.SplitterContentControl1">
+	<summary>
+SplitterContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.ASPxMenu1">
+	<summary>
+ASPxMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.SplitterContentControl3">
+	<summary>
+SplitterContentControl3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.Content">
+	<summary>
+Content control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.SplitterContentControl4">
+	<summary>
+SplitterContentControl4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.ASPxLabel2">
+	<summary>
+ASPxLabel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.XmlDataSourceHeader">
+	<summary>
+XmlDataSourceHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.RootMaster.XmlDataSource1">
+	<summary>
+XmlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.pageControl">
+	<summary>
+pageControl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ContentControl1">
+	<summary>
+ContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.PivotGridField3">
+	<summary>
+PivotGridField3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.PivotGridField4">
+	<summary>
+PivotGridField4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.PivotGridField5">
+	<summary>
+PivotGridField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.PivotGridField6">
+	<summary>
+PivotGridField6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.PivotGridField7">
+	<summary>
+PivotGridField7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldGia">
+	<summary>
+fieldGia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldTonCK">
+	<summary>
+fieldTonCK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldTonCKHB">
+	<summary>
+fieldTonCKHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.fieldTonCKKM">
+	<summary>
+fieldTonCKKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ContentControl2">
+	<summary>
+ContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.Manpps">
+	<summary>
+Manpps control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.txtngaytinh">
+	<summary>
+txtngaytinh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.txtNgayup">
+	<summary>
+txtNgayup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.btnupload">
+	<summary>
+btnupload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.npp">
+	<summary>
+npp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ContentControl3">
+	<summary>
+ContentControl3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.SqlMnpp">
+	<summary>
+SqlMnpp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.ASPxDateEdit2">
+	<summary>
+ASPxDateEdit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.TxtLyDO">
+	<summary>
+TxtLyDO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.Bt_dieuChinh">
+	<summary>
+Bt_dieuChinh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.FileUpload3">
+	<summary>
+FileUpload3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.txtngayupdate">
+	<summary>
+txtngayupdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.GrilXK">
+	<summary>
+GrilXK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Check_data.Sqlxuatkhac">
+	<summary>
+Sqlxuatkhac control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.FileUpload3">
+	<summary>
+FileUpload3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.btupdload">
+	<summary>
+btupdload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.ASPxTextBox1">
+	<summary>
+ASPxTextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.updatesoban.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Login.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Login.tbUserName">
+	<summary>
+tbUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Login.lblPassword">
+	<summary>
+lblPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Login.tbPassword">
+	<summary>
+tbPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.dulieuall.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldMaCT1">
+	<summary>
+fieldMaCT1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldTenCT">
+	<summary>
+fieldTenCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldTyleCK">
+	<summary>
+fieldTyleCK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldDoanhSO">
+	<summary>
+fieldDoanhSO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldKM">
+	<summary>
+fieldKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldProvince">
+	<summary>
+fieldProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.fieldTyle">
+	<summary>
+fieldTyle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.TongHopKhuyenMai.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPExport">
+	<summary>
+ASPExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.BtNew">
+	<summary>
+BtNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.btchays">
+	<summary>
+btchays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.butsyn">
+	<summary>
+butsyn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Btsyns">
+	<summary>
+Btsyns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.btchay">
+	<summary>
+btchay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.pcCreateAccount">
+	<summary>
+pcCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.PopupControlContentControl1">
+	<summary>
+PopupControlContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.callbackPanel">
+	<summary>
+callbackPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.PanelContent1">
+	<summary>
+PanelContent1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.fMS_CTKM">
+	<summary>
+fMS_CTKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.tMS_CTKM">
+	<summary>
+tMS_CTKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.btCreate">
+	<summary>
+btCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.btCancel2">
+	<summary>
+btCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.pcCreateAccount1">
+	<summary>
+pcCreateAccount1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.PopupControlContentControl2">
+	<summary>
+PopupControlContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPxCallbackPanel1">
+	<summary>
+ASPxCallbackPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.PanelContent2">
+	<summary>
+PanelContent2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.MaCT">
+	<summary>
+MaCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.TenCTs">
+	<summary>
+TenCTs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.NhanSPx">
+	<summary>
+NhanSPx control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.LoaiCT">
+	<summary>
+LoaiCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.TyleCKS">
+	<summary>
+TyleCKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Ngaybd">
+	<summary>
+Ngaybd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Ngaykts">
+	<summary>
+Ngaykts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.khongapdungs">
+	<summary>
+khongapdungs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Ngansachs">
+	<summary>
+Ngansachs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Loai">
+	<summary>
+Loai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPxSV">
+	<summary>
+ASPxSV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.ASPxBC">
+	<summary>
+ASPxBC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM3.Sqlctkm">
+	<summary>
+Sqlctkm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WEB.SSM.Resources.English.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WEB.SSM.Resources.English.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WEB.SSM.Resources.English">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:WEB.SSM.Baophu.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldRregion">
+	<summary>
+fieldRregion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldProvince">
+	<summary>
+fieldProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTongtien">
+	<summary>
+fieldTongtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLNV">
+	<summary>
+fieldSLNV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLDonhang">
+	<summary>
+fieldSLDonhang control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLKHMua">
+	<summary>
+fieldSLKHMua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLKHQuanly">
+	<summary>
+fieldSLKHQuanly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLSKU">
+	<summary>
+fieldSLSKU control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldSLSKU_chua">
+	<summary>
+fieldSLSKU_chua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTyleKHMua">
+	<summary>
+fieldTyleKHMua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTyleDHKH">
+	<summary>
+fieldTyleDHKH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTyleDSDH">
+	<summary>
+fieldTyleDSDH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.fieldTyleSKUDH">
+	<summary>
+fieldTyleSKUDH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophu.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.upLoad_ketqua.FileUpload3">
+	<summary>
+FileUpload3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.upLoad_ketqua.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.upLoad_ketqua.Bt_dieuChinh">
+	<summary>
+Bt_dieuChinh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.upLoad_ketqua.GrilXK">
+	<summary>
+GrilXK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.upLoad_ketqua.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.lbluser">
+	<summary>
+lbluser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.lbuser">
+	<summary>
+lbuser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.lblCurrentPassword">
+	<summary>
+lblCurrentPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.tbCurrentPassword">
+	<summary>
+tbCurrentPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.lblPassword">
+	<summary>
+lblPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.tbPassword">
+	<summary>
+tbPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.lblConfirmPassword">
+	<summary>
+lblConfirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.tbConfirmPassword">
+	<summary>
+tbConfirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.ChangePassword.btnChangePassword">
+	<summary>
+btnChangePassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.salesIn.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.salesIn.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.salesIn.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.salesIn.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.salesIn.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.ASPxNhap">
+	<summary>
+ASPxNhap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Du_lieu_goc_nhap.Sqlnhap">
+	<summary>
+Sqlnhap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.LightMaster.ASPxPanel1">
+	<summary>
+ASPxPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.LightMaster.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.exportmdb">
+	<summary>
+exportmdb control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldProvince">
+	<summary>
+fieldProvince control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldMaSP">
+	<summary>
+fieldMaSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTenSP">
+	<summary>
+fieldTenSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldNhanSP">
+	<summary>
+fieldNhanSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldDVT">
+	<summary>
+fieldDVT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldGia">
+	<summary>
+fieldGia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonDK">
+	<summary>
+fieldTonDK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonDKHB">
+	<summary>
+fieldTonDKHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonDKKM">
+	<summary>
+fieldTonDKKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldNhapHB">
+	<summary>
+fieldNhapHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldNhapKM">
+	<summary>
+fieldNhapKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldXuatHB">
+	<summary>
+fieldXuatHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldXuatKM">
+	<summary>
+fieldXuatKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldXuatDHBKM">
+	<summary>
+fieldXuatDHBKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonCK">
+	<summary>
+fieldTonCK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonCKHB">
+	<summary>
+fieldTonCKHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.fieldTonCKKM">
+	<summary>
+fieldTonCKKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkho.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.homes.ASPxSplitter2">
+	<summary>
+ASPxSplitter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.homes.ASPxNavBar1">
+	<summary>
+ASPxNavBar1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.homes.XmlDataSourceLeft">
+	<summary>
+XmlDataSourceLeft control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.homes.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPExport">
+	<summary>
+ASPExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.BtNew">
+	<summary>
+BtNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.btchays">
+	<summary>
+btchays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.butsyn">
+	<summary>
+butsyn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Btsyns">
+	<summary>
+Btsyns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.btchay">
+	<summary>
+btchay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.pcCreateAccount">
+	<summary>
+pcCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.PopupControlContentControl1">
+	<summary>
+PopupControlContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.callbackPanel">
+	<summary>
+callbackPanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.PanelContent1">
+	<summary>
+PanelContent1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.fMS_CTKM">
+	<summary>
+fMS_CTKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.tMS_CTKM">
+	<summary>
+tMS_CTKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.btCreate">
+	<summary>
+btCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.btCancel2">
+	<summary>
+btCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.pcCreateAccount1">
+	<summary>
+pcCreateAccount1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.PopupControlContentControl2">
+	<summary>
+PopupControlContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPxCallbackPanel1">
+	<summary>
+ASPxCallbackPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.PanelContent2">
+	<summary>
+PanelContent2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.MaCT">
+	<summary>
+MaCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.TenCTs">
+	<summary>
+TenCTs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.NhanSPx">
+	<summary>
+NhanSPx control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.LoaiCT">
+	<summary>
+LoaiCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.TyleCKS">
+	<summary>
+TyleCKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Ngaybd">
+	<summary>
+Ngaybd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Ngaykts">
+	<summary>
+Ngaykts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.khongapdungs">
+	<summary>
+khongapdungs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Ngansachs">
+	<summary>
+Ngansachs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Loai">
+	<summary>
+Loai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPxSV">
+	<summary>
+ASPxSV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.ASPxBC">
+	<summary>
+ASPxBC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM2.Sqlctkm">
+	<summary>
+Sqlctkm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.pageControl">
+	<summary>
+pageControl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ContentControl1">
+	<summary>
+ContentControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ContentControl2">
+	<summary>
+ContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxDateEdit1">
+	<summary>
+ASPxDateEdit1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxDateEdit2">
+	<summary>
+ASPxDateEdit2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.ASPxGridView2">
+	<summary>
+ASPxGridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Log_bao_cao.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.SqlMnpp">
+	<summary>
+SqlMnpp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.btnupload">
+	<summary>
+btnupload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.WebXuatAm.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.butsyn">
+	<summary>
+butsyn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.Btsyns">
+	<summary>
+Btsyns control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.ASPxGridViewExporter2">
+	<summary>
+ASPxGridViewExporter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.CTKM.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldSubregion">
+	<summary>
+fieldSubregion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldMaNV">
+	<summary>
+fieldMaNV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldHotenNV">
+	<summary>
+fieldHotenNV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldNhanSP">
+	<summary>
+fieldNhanSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.fieldThanhtien">
+	<summary>
+fieldThanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSONV.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldNhanSP">
+	<summary>
+fieldNhanSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.fieldThanhtien">
+	<summary>
+fieldThanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.sales.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxButton2">
+	<summary>
+ASPxButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldMaKH">
+	<summary>
+fieldMaKH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldTenKH">
+	<summary>
+fieldTenKH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldMaNV">
+	<summary>
+fieldMaNV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldHoten">
+	<summary>
+fieldHoten control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldSldh">
+	<summary>
+fieldSldh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldSLHB">
+	<summary>
+fieldSLHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldThanhtien">
+	<summary>
+fieldThanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldSLKM">
+	<summary>
+fieldSLKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldKhuyenmai">
+	<summary>
+fieldKhuyenmai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldmakhh">
+	<summary>
+fieldmakhh control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldThang">
+	<summary>
+fieldThang control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.fieldnam">
+	<summary>
+fieldnam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.pcCreateAccount">
+	<summary>
+pcCreateAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.PopupControlContentControl2">
+	<summary>
+PopupControlContentControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.Panel2">
+	<summary>
+Panel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.PanelContent2">
+	<summary>
+PanelContent2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.EBrand">
+	<summary>
+EBrand control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ENhan">
+	<summary>
+ENhan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPmui">
+	<summary>
+ASPmui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxSize">
+	<summary>
+ASPxSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxloai">
+	<summary>
+ASPxloai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.ASPxItem">
+	<summary>
+ASPxItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.btCreate">
+	<summary>
+btCreate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.btCancel2">
+	<summary>
+btCancel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.SqlNhan">
+	<summary>
+SqlNhan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.Sqlmui">
+	<summary>
+Sqlmui control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.Sqlsize">
+	<summary>
+Sqlsize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DS_khach_hang.SqlItem">
+	<summary>
+SqlItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField3">
+	<summary>
+PivotGridField3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField4">
+	<summary>
+PivotGridField4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField5">
+	<summary>
+PivotGridField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField6">
+	<summary>
+PivotGridField6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField7">
+	<summary>
+PivotGridField7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.PivotGridField8">
+	<summary>
+PivotGridField8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldGia">
+	<summary>
+fieldGia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTonCK">
+	<summary>
+fieldTonCK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTienCK">
+	<summary>
+fieldTienCK control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTonCKHB">
+	<summary>
+fieldTonCKHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTienCKHB">
+	<summary>
+fieldTienCKHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTonCKKM">
+	<summary>
+fieldTonCKKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.fieldTienCKKM">
+	<summary>
+fieldTienCKKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.tonkhosku.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.ASPxPivotGridExporter2">
+	<summary>
+ASPxPivotGridExporter2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.btnXlsxExport2">
+	<summary>
+btnXlsxExport2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.ASPxPivotGrid2">
+	<summary>
+ASPxPivotGrid2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField1">
+	<summary>
+PivotGridField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField2">
+	<summary>
+PivotGridField2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField3">
+	<summary>
+PivotGridField3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField4">
+	<summary>
+PivotGridField4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField5">
+	<summary>
+PivotGridField5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField6">
+	<summary>
+PivotGridField6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField7">
+	<summary>
+PivotGridField7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField8">
+	<summary>
+PivotGridField8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField9">
+	<summary>
+PivotGridField9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField10">
+	<summary>
+PivotGridField10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField11">
+	<summary>
+PivotGridField11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField12">
+	<summary>
+PivotGridField12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField13">
+	<summary>
+PivotGridField13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField14">
+	<summary>
+PivotGridField14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField15">
+	<summary>
+PivotGridField15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField16">
+	<summary>
+PivotGridField16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField17">
+	<summary>
+PivotGridField17 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.PivotGridField18">
+	<summary>
+PivotGridField18 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DoanhSo_ItemSub.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.DanhsachNV.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldNhanSP">
+	<summary>
+fieldNhanSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldThanhtien">
+	<summary>
+fieldThanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Doanhso.fieldKM">
+	<summary>
+fieldKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ASPxLabel1">
+	<summary>
+ASPxLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ChartType">
+	<summary>
+ChartType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ShowColumnGrandTotals">
+	<summary>
+ShowColumnGrandTotals control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ChartDataVertical">
+	<summary>
+ChartDataVertical control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.PointLabels">
+	<summary>
+PointLabels control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ShowRowGrandTotals">
+	<summary>
+ShowRowGrandTotals control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.WebChart1">
+	<summary>
+WebChart1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldSubregion">
+	<summary>
+fieldSubregion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldNhanSP">
+	<summary>
+fieldNhanSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.fieldThanhtien">
+	<summary>
+fieldThanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM._Default.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.mobile.Body">
+	<summary>
+Body control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.mobile.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.mobile.Content">
+	<summary>
+Content control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.about.ImageButton1">
+	<summary>
+ImageButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.about.ImageButton2">
+	<summary>
+ImageButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldMaNV">
+	<summary>
+fieldMaNV control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldHoten">
+	<summary>
+fieldHoten control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTongtien">
+	<summary>
+fieldTongtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldSLDonhang">
+	<summary>
+fieldSLDonhang control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldSLKHMua">
+	<summary>
+fieldSLKHMua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldSLKHQuanly">
+	<summary>
+fieldSLKHQuanly control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldSLSKU">
+	<summary>
+fieldSLSKU control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTyleKHMua">
+	<summary>
+fieldTyleKHMua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTyleDHKH">
+	<summary>
+fieldTyleDHKH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTyleDSDH">
+	<summary>
+fieldTyleDSDH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.fieldTyleSKUDH">
+	<summary>
+fieldTyleSKUDH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.PivotGridField1">
+	<summary>
+PivotGridField1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Baophunpp.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.radioButtonList">
+	<summary>
+radioButtonList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.ASPxGridView2">
+	<summary>
+ASPxGridView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.ASPxGridView3">
+	<summary>
+ASPxGridView3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.chuky.SqlDataSource4">
+	<summary>
+SqlDataSource4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.khachhang.SqlDataSource3">
+	<summary>
+SqlDataSource3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.export1">
+	<summary>
+export1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.pnlUploadMessage">
+	<summary>
+pnlUploadMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.lnkDownloadYourFile">
+	<summary>
+lnkDownloadYourFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldmanpp">
+	<summary>
+fieldmanpp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldDebname">
+	<summary>
+fieldDebname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldmact">
+	<summary>
+fieldmact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldtenCT">
+	<summary>
+fieldtenCT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldloaict">
+	<summary>
+fieldloaict control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldMactKT">
+	<summary>
+fieldMactKT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldtyleck">
+	<summary>
+fieldtyleck control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldtyle">
+	<summary>
+fieldtyle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldthanhtien">
+	<summary>
+fieldthanhtien control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldkm">
+	<summary>
+fieldkm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldDS">
+	<summary>
+fieldDS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldkmok">
+	<summary>
+fieldkmok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.fieldtencts">
+	<summary>
+fieldtencts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Cliam.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.Btchay">
+	<summary>
+Btchay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.ASPxComboBox1">
+	<summary>
+ASPxComboBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.ASPxGridViewExporter1">
+	<summary>
+ASPxGridViewExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.SqlDataSource1">
+	<summary>
+SqlDataSource1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.web_check_cliam.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.datest">
+	<summary>
+datest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.dateen">
+	<summary>
+dateen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.Btok">
+	<summary>
+Btok control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.btnXlsxExport">
+	<summary>
+btnXlsxExport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.ASPxPivotGridExporter1">
+	<summary>
+ASPxPivotGridExporter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.SqlDataSource2">
+	<summary>
+SqlDataSource2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.ASPxPivotGrid1">
+	<summary>
+ASPxPivotGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldRegion">
+	<summary>
+fieldRegion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldArea">
+	<summary>
+fieldArea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldMaNPP">
+	<summary>
+fieldMaNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldTenNPP">
+	<summary>
+fieldTenNPP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldTonDau">
+	<summary>
+fieldTonDau control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldNhapHB">
+	<summary>
+fieldNhapHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldNhapKM">
+	<summary>
+fieldNhapKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldXuatHB">
+	<summary>
+fieldXuatHB control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldXuatKM">
+	<summary>
+fieldXuatKM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldXuatKhac">
+	<summary>
+fieldXuatKhac control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WEB.SSM.Tonkhotong.fieldTonCuoi">
+	<summary>
+fieldTonCuoi control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

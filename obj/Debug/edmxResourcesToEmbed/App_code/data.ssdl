@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SSMModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SSMModelStoreContainer" />
+  <Function Name="WebGetDS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+</Schema>

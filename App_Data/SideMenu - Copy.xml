@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <group Text="Doanh Số">
+    <item Text="Doanh số Tổng" NavigateUrl="~/SALES/DoanhSO.aspx" />
+    <item Text="Doanh số theo Nhân viên" NavigateUrl="~/SALES/DoanhSONV.aspx" />
+    <item Text="Doanh Số theo CTKM" NavigateUrl="~/SALES/DoanhSOCTKM.aspx"/>
+    <item Text="Dữ liệu Full All" NavigateUrl="~/SALES/dulieugoc.aspx" />
+    <item Text="Dữ liệu NPP All" NavigateUrl="~/SALES/dulieuAll.aspx" />
+  </group>
+  <group Text="Bao Phủ" > 
+    <item Text="Bao Phủ Theo Nhân Viên" NavigateUrl="~/BAOPHU/Baophunpp.aspx"  />
+    <item Text="Bao Phủ Theo NPP" NavigateUrl="~/BAOPHU/Baophu.aspx" />
+  </group>
+  <group Text="Tồn Kho" NavigateUrl="~/TONKHO/Tonkho.aspx"/>
+    <item Text="Tổng Hợp" NavigateUrl="~/TONKHO/Tonkho.aspx" />
+    <item Text="Nhập Xuất Tồn SKU" NavigateUrl="~/TONKHO/Tonkhosku.aspx" />
+  </group>
+  <group Text="Quản Lý">
+    <item Text="Danh Sách Khách Hàng" NavigateUrl="~/SYSTEM/DSKhachhangs.aspx" />
+    <item Text="Danh Sách Nhân Viên" NavigateUrl="~/SYSTEM/DanhsachNV.aspx" />
+    <item Text="Danh Sách Nhà Phân Phối" NavigateUrl="~/SYSTEM/khachhang.aspx"/>
+    <item Text="Danh Sách Sản Phẩm" NavigateUrl="~/SYSTEM/SanPham.aspx"/>
+  </group>
+</menu>

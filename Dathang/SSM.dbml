@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SSM2014" Class="SSMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.100.21;Initial Catalog=SSM2014;Persist Security Info=True;User ID=sqlupdate;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="WEB.SSM.My.MySettings" SettingsPropertyName="SSM2014ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_DMS_orderH" Member="tb_DMS_orderHs">
+    <Type Name="tb_DMS_orderH">
+      <Column Name="IDs" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Debcode" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="orderNumber" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="orderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="orderLines" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="remark" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="fieldForceCode" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="retailerCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dateupdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Amountfree" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="status" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="Users" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DateCreate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="tb_DMS_orderH_tb_DMS_orderH" Member="tb_DMS_orderH1" ThisKey="Debcode,orderNumber" OtherKey="Debcode,orderNumber" Type="tb_DMS_orderH" Cardinality="One" />
+      <Association Name="tb_DMS_orderH_tb_DMS_orderH" Member="tb_DMS_orderH" ThisKey="Debcode,orderNumber" OtherKey="Debcode,orderNumber" Type="tb_DMS_orderH" IsForeignKey="true" />
+      <Association Name="tb_DMS_orderD_tb_DMS_orderH" Member="tb_DMS_orderD" ThisKey="Debcode,orderNumber" OtherKey="Debcode,orderNumber" Type="tb_DMS_orderD" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_DMS_orderD" Member="tb_DMS_orderDs">
+    <Type Name="tb_DMS_orderD">
+      <Column Name="IDs" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lineNumber" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Debcode" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="orderNumber" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="productCode" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="orderQuantity" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="datecreate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SaleValue" Type="System.Decimal" DbType="Decimal(29,0)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="schemeCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FreeValue" Type="System.Decimal" DbType="Decimal(29,0)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="tb_DMS_orderD_tb_DMS_orderH" Member="tb_DMS_orderHs" ThisKey="Debcode,orderNumber" OtherKey="Debcode,orderNumber" Type="tb_DMS_orderH" Cardinality="One" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SSMModelStoreContainer" CdmEntityContainer="SSMEntities">
+    <FunctionImportMapping FunctionImportName="WebGetDS" FunctionName="SSMModel.Store.WebGetDS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetDS_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <group Text="Doanh Số" >
+    <item Text="Doanh số bán ra" NavigateUrl="~/SALES/DoanhSO.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+   <item Text="Doanh số Nhập vào" NavigateUrl="~/SaleIn.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+<item Text="Doanh số Nhập vào chi tiết" NavigateUrl="~/SALES/Du_lieu_goc_nhap.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+    <item Text="Doanh số theo Nhân viên" NavigateUrl="~/SALES/DoanhSONV.aspx"  ImageUrl="~/Content/Images/Accept-Male-User-icon.png"  />
+    <item Text="Doanh Số theo CTKM" NavigateUrl="~/SALES/TongHopKhuyenMai.aspx" ImageUrl="~/Content/Images/empty-shopping-bag-icon.png"/>
+    
+<item Text="Doanh Số theo sản phẩm" NavigateUrl="~/SALES/DoanhSo_ItemSub.aspx" ImageUrl="~/Content/Images/empty-shopping-bag-icon.png"/>
+      <item Text="Dữ liệu Full All" NavigateUrl="~/SALES/dulieugoc.aspx" ImageUrl="~/Content/Images/SEO-icon.png" />
+    <item Text="Dữ liệu NPP All" NavigateUrl="~/SALES/dulieuAll.aspx"  ImageUrl="~/Content/Images/SEO-icon.png"/>
+    <item Text="Doanh Số theo khách hàng" NavigateUrl="~/SALES/DS_khach_hang.aspx" ImageUrl="~/Content/Images/SEO-icon.png" />
+  </group>
+  <group Text="Claim" >
+<item Text="Đề nghị thanh toán Km" NavigateUrl="~/SALES/Cliam.aspx" ImageUrl="~/Content/Images/empty-shopping-bag-icon.png"/>
+<item Text="Check cliam" NavigateUrl="~/SALES/web_check_cliam.aspx" ImageUrl="~/Content/Images/SEO-icon.png" />
+ <item Text="Kết Quả Claim" NavigateUrl="~/Cliam/Ket_qua_claim.aspx" ImageUrl="~/Content/Images/SEO-icon.png" />
+
+  </group>
+ <group Text="Bao Phủ" > 
+    <item Text="Bao Phủ Theo Nhân Viên" NavigateUrl="~/BAOPHU/Baophunpp.aspx"  ImageUrl="~/Content/Images/Accept-Male-User-icon.png" />
+    <item Text="Bao Phủ Theo NPP" NavigateUrl="~/BAOPHU/Baophu.aspx"  ImageUrl="~/Content/Images/custom-reports-icon.png" />
+  </group>
+   <group Text="Tồn Kho" NavigateUrl="~/TONKHO/Tonkho.aspx" >
+    <item Text="Tổng Hợp" NavigateUrl="~/TONKHO/Tonkho.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png" />
+    <item Text="Tồn kho SKU đến ngày" NavigateUrl="~/TONKHO/Tonkhosku.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png"  />
+   <item Text="Tổng hợp mua vào bán ra" NavigateUrl="~/TONKHO/tonkhotong.aspx" ImageUrl="~/Content/Images/Filter-List-icon.png"  />
+  <item Text="Danh sách xuất kho âm" NavigateUrl="~/SYSTEM/WebXuatAm.aspx"  ImageUrl="~/Content/Images/Sales-report-icon.png" />
+ 
+  </group>
+  <group Text="Quản Lý">
+    <item Text="Danh Sách Khách Hàng" NavigateUrl="~/SYSTEM/DSKhachhangs.aspx" ImageUrl="~/Content/Images/Users-icon.png" />
+    <item Text="Danh Sách Nhân Viên" NavigateUrl="~/SYSTEM/DanhsachNV.aspx" ImageUrl="~/Content/Images/Engineer-icon.png" />
+    <item Text="Danh Sách Nhà Phân Phối" NavigateUrl="~/SYSTEM/khachhang.aspx"  ImageUrl="~/Content/Images/distributor-report-icon.png" />
+    <item Text="Danh Sách Sản Phẩm" NavigateUrl="~/SYSTEM/SanPham.aspx" ImageUrl="~/Content/Images/add-item-icon.png" />
+  <item Text="Upload số từ npp" NavigateUrl="~/SYSTEM/updatesoban.aspx" ImageUrl="~/Content/Images/Increase-icon.png" />
+    <item Text="Chu Kỳ" NavigateUrl="~/SYSTEM/chuky.aspx" ImageUrl="~/Content/Images/Calendar-icon.png"/>
+    <item Text="Chương trình Khuyến Mãi" NavigateUrl="~/SYSTEM/CTKM.aspx"  ImageUrl="~/Content/Images/Sales-report-icon.png" />
+<item Text="Định nghĩa CTKM" NavigateUrl="~/SYSTEM/CTKM3.aspx"  ImageUrl="~/Content/Images/Sales-report-icon.png" />
+    <item Text="Kiểm tra dữ liệu" NavigateUrl="~/SYSTEM/Check_data.aspx"  ImageUrl="~/Content/Images/Check-icon.png" />
+ <item Text="Log báo cáo" NavigateUrl="~/SYSTEM/Log_bao_cao.aspx"  ImageUrl="~/Content/Images/Check-icon.png" />
+
+  </group>
+
+</menu>

@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SSM2014ModelStoreContainer" CdmEntityContainer="SSM2014Entities1">
+    <EntitySetMapping Name="ConnectSAPs">
+      <EntityTypeMapping TypeName="SSM2014Model.ConnectSAP">
+        <MappingFragment StoreEntitySet="ConnectSAP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AppServerHost" ColumnName="AppServerHost" />
+          <ScalarProperty Name="SystemNumber" ColumnName="SystemNumber" />
+          <ScalarProperty Name="SystemID" ColumnName="SystemID" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Client" ColumnName="Client" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="PoolSize" ColumnName="PoolSize" />
+          <ScalarProperty Name="PeakConnectionsLimit" ColumnName="PeakConnectionsLimit" />
+          <ScalarProperty Name="Acti" ColumnName="Acti" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtproperties">
+      <EntityTypeMapping TypeName="SSM2014Model.dtproperty">
+        <MappingFragment StoreEntitySet="dtproperties">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="objectid" ColumnName="objectid" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="uvalue" ColumnName="uvalue" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+          <ScalarProperty Name="version" ColumnName="version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDDoanhsoes">
+      <EntityTypeMapping TypeName="SSM2014Model.SDDoanhso">
+        <MappingFragment StoreEntitySet="SDDoanhso">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="USERs" ColumnName="USERs" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDDoanhso_am">
+      <EntityTypeMapping TypeName="SSM2014Model.SDDoanhso_am">
+        <MappingFragment StoreEntitySet="SDDoanhso_am">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="USERs" ColumnName="USERs" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhangs">
+      <EntityTypeMapping TypeName="SSM2014Model.SDKhachhang">
+        <MappingFragment StoreEntitySet="SDKhachhang">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="NgayHD" ColumnName="NgayHD" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhang1">
+      <EntityTypeMapping TypeName="SSM2014Model.SDKhachhang1">
+        <MappingFragment StoreEntitySet="SDKhachhang1">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="NgayHD" ColumnName="NgayHD" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhangNVs">
+      <EntityTypeMapping TypeName="SSM2014Model.SDKhachhangNV">
+        <MappingFragment StoreEntitySet="SDKhachhangNV">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Activer" ColumnName="Activer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDNhanviens">
+      <EntityTypeMapping TypeName="SSM2014Model.SDNhanvien">
+        <MappingFragment StoreEntitySet="SDNhanvien">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Ngayvao" ColumnName="Ngayvao" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDNhanvien1">
+      <EntityTypeMapping TypeName="SSM2014Model.SDNhanvien1">
+        <MappingFragment StoreEntitySet="SDNhanvien1">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Ngayvao" ColumnName="Ngayvao" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDTonkhothangs">
+      <EntityTypeMapping TypeName="SSM2014Model.SDTonkhothang">
+        <MappingFragment StoreEntitySet="SDTonkhothang">
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonHB" ColumnName="TonHB" />
+          <ScalarProperty Name="TonKM" ColumnName="TonKM" />
+          <ScalarProperty Name="TonTU" ColumnName="TonTU" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SdxuatKhacs">
+      <EntityTypeMapping TypeName="SSM2014Model.SdxuatKhac">
+        <MappingFragment StoreEntitySet="SdxuatKhac">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="DienGiai" ColumnName="DienGiai" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="Ngayupdate" ColumnName="Ngayupdate" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="maxk" ColumnName="maxk" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SSM2014Model.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CTKM_NPP">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_CTKM_NPP">
+        <MappingFragment StoreEntitySet="TB_CTKM_NPP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="MS_NPP" ColumnName="MS_NPP" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_CustomerPrice">
+      <EntityTypeMapping TypeName="SSM2014Model.tb_CustomerPrice">
+        <MappingFragment StoreEntitySet="tb_CustomerPrice">
+          <ScalarProperty Name="Olddebcode" ColumnName="Olddebcode" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DangNhap">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_DangNhap">
+        <MappingFragment StoreEntitySet="TB_DangNhap">
+          <ScalarProperty Name="Usid" ColumnName="Usid" />
+          <ScalarProperty Name="Tendangnhap" ColumnName="Tendangnhap" />
+          <ScalarProperty Name="MaPhongban" ColumnName="MaPhongban" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="maquyen" ColumnName="maquyen" />
+          <ScalarProperty Name="hovaten" ColumnName="hovaten" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="Slandangnhap" ColumnName="Slandangnhap" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+          <ScalarProperty Name="ngaycreate" ColumnName="ngaycreate" />
+          <ScalarProperty Name="ngayactiver" ColumnName="ngayactiver" />
+          <ScalarProperty Name="dangnhapmoi" ColumnName="dangnhapmoi" />
+          <ScalarProperty Name="SAPus" ColumnName="SAPus" />
+          <ScalarProperty Name="Online" ColumnName="Online" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_khohang">
+      <EntityTypeMapping TypeName="SSM2014Model.tb_khohang">
+        <MappingFragment StoreEntitySet="tb_khohang">
+          <ScalarProperty Name="kho" ColumnName="kho" />
+          <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbActives">
+      <EntityTypeMapping TypeName="SSM2014Model.tbActive">
+        <MappingFragment StoreEntitySet="tbActive">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbbLoais">
+      <EntityTypeMapping TypeName="SSM2014Model.tbbLoai">
+        <MappingFragment StoreEntitySet="tbbLoai">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbcliams">
+      <EntityTypeMapping TypeName="SSM2014Model.tbcliam">
+        <MappingFragment StoreEntitySet="tbcliam">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="manpp" ColumnName="manpp" />
+          <ScalarProperty Name="maxk" ColumnName="maxk" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="ngay" ColumnName="ngay" />
+          <ScalarProperty Name="loaict" ColumnName="loaict" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="masp" ColumnName="masp" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="khuyenmai" ColumnName="khuyenmai" />
+          <ScalarProperty Name="slthamchieu" ColumnName="slthamchieu" />
+          <ScalarProperty Name="loai" ColumnName="loai" />
+          <ScalarProperty Name="Mact_KT" ColumnName="Mact_KT" />
+          <ScalarProperty Name="loaimua" ColumnName="loaimua" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="loaikm" ColumnName="loaikm" />
+          <ScalarProperty Name="valuekm" ColumnName="valuekm" />
+          <ScalarProperty Name="slquydoi" ColumnName="slquydoi" />
+          <ScalarProperty Name="doanhso" ColumnName="doanhso" />
+          <ScalarProperty Name="HB" ColumnName="HB" />
+          <ScalarProperty Name="HBQD" ColumnName="HBQD" />
+          <ScalarProperty Name="KMOK" ColumnName="KMOK" />
+          <ScalarProperty Name="LYdo" ColumnName="LYdo" />
+          <ScalarProperty Name="makh" ColumnName="makh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCliam_TT">
+      <EntityTypeMapping TypeName="SSM2014Model.tbCliam_TT">
+        <MappingFragment StoreEntitySet="tbCliam_TT">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="manpp" ColumnName="manpp" />
+          <ScalarProperty Name="maxk" ColumnName="maxk" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="Mact_KT" ColumnName="Mact_KT" />
+          <ScalarProperty Name="ngay" ColumnName="ngay" />
+          <ScalarProperty Name="masp" ColumnName="masp" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="LYdo" ColumnName="LYdo" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="Priceinv" ColumnName="Priceinv" />
+          <ScalarProperty Name="Amountinv" ColumnName="Amountinv" />
+          <ScalarProperty Name="PriceCog" ColumnName="PriceCog" />
+          <ScalarProperty Name="AmountCog" ColumnName="AmountCog" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCTKMs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbCTKM">
+        <MappingFragment StoreEntitySet="tbCTKM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiCT" ColumnName="LoaiCT" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Ngaybd" ColumnName="Ngaybd" />
+          <ScalarProperty Name="Ngaykt" ColumnName="Ngaykt" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Ngansach" ColumnName="Ngansach" />
+          <ScalarProperty Name="SoluongSKu" ColumnName="SoluongSKu" />
+          <ScalarProperty Name="khongapdung" ColumnName="khongapdung" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="usercreate" ColumnName="usercreate" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+          <ScalarProperty Name="usAprover" ColumnName="usAprover" />
+          <ScalarProperty Name="dateAProver" ColumnName="dateAProver" />
+          <ScalarProperty Name="userCheck" ColumnName="userCheck" />
+          <ScalarProperty Name="Datecheck" ColumnName="Datecheck" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCustomers">
+      <EntityTypeMapping TypeName="SSM2014Model.tbCustomer">
+        <MappingFragment StoreEntitySet="tbCustomer">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="Debname" ColumnName="Debname" />
+          <ScalarProperty Name="Debadd" ColumnName="Debadd" />
+          <ScalarProperty Name="Classid" ColumnName="Classid" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="Activer" ColumnName="Activer" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+          <ScalarProperty Name="datechange" ColumnName="datechange" />
+          <ScalarProperty Name="Olddebcode" ColumnName="Olddebcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCustomerS1">
+      <EntityTypeMapping TypeName="SSM2014Model.tbCustomer1">
+        <MappingFragment StoreEntitySet="tbCustomerS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DebOption" ColumnName="DebOption" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCvCATs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbCvCAT">
+        <MappingFragment StoreEntitySet="tbCvCAT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NewSUB" ColumnName="NewSUB" />
+          <ScalarProperty Name="Subcat" ColumnName="Subcat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbdathang_ct">
+      <EntityTypeMapping TypeName="SSM2014Model.Tbdathang_ct">
+        <MappingFragment StoreEntitySet="Tbdathang_ct">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Ordernr" ColumnName="Ordernr" />
+          <ScalarProperty Name="kho" ColumnName="kho" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="PriceIV" ColumnName="PriceIV" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AmountRBP" ColumnName="AmountRBP" />
+          <ScalarProperty Name="AmountINV" ColumnName="AmountINV" />
+          <ScalarProperty Name="tax" ColumnName="tax" />
+          <ScalarProperty Name="AmountFull" ColumnName="AmountFull" />
+          <ScalarProperty Name="Transactiontype" ColumnName="Transactiontype" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="QuantityBK" ColumnName="QuantityBK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbDatHangs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbDatHang">
+        <MappingFragment StoreEntitySet="tbDatHangs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Ordernr" ColumnName="Ordernr" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="Dates" ColumnName="Dates" />
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AmountRBP" ColumnName="AmountRBP" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="Amountfull" ColumnName="Amountfull" />
+          <ScalarProperty Name="UserApr" ColumnName="UserApr" />
+          <ScalarProperty Name="dateAP" ColumnName="dateAP" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UserCp" ColumnName="UserCp" />
+          <ScalarProperty Name="dateCom" ColumnName="dateCom" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbdCtkmNPPs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbdCtkmNPP">
+        <MappingFragment StoreEntitySet="tbdCtkmNPP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbdh_lock_kho">
+      <EntityTypeMapping TypeName="SSM2014Model.tbdh_lock_kho">
+        <MappingFragment StoreEntitySet="tbdh_lock_kho">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Kho" ColumnName="Kho" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Dateform" ColumnName="Dateform" />
+          <ScalarProperty Name="dateto" ColumnName="dateto" />
+          <ScalarProperty Name="uses" ColumnName="uses" />
+          <ScalarProperty Name="datecreate" ColumnName="datecreate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbDoiTuongApdungs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbDoiTuongApdung">
+        <MappingFragment StoreEntitySet="tbDoiTuongApdung">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="Mui" ColumnName="Mui" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="Apdung" ColumnName="Apdung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbDoiTuongApdung2">
+      <EntityTypeMapping TypeName="SSM2014Model.tbDoiTuongApdung2">
+        <MappingFragment StoreEntitySet="tbDoiTuongApdung2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="Mui" ColumnName="Mui" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="Apdung" ColumnName="Apdung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TbDQuydois">
+      <EntityTypeMapping TypeName="SSM2014Model.TbDQuydoi">
+        <MappingFragment StoreEntitySet="TbDQuydoi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbdtcomboes">
+      <EntityTypeMapping TypeName="SSM2014Model.tbdtcombo">
+        <MappingFragment StoreEntitySet="tbdtcombo">
+          <ScalarProperty Name="combo" ColumnName="combo" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="Mui" ColumnName="Mui" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbdtKhuyenmais">
+      <EntityTypeMapping TypeName="SSM2014Model.tbdtKhuyenmai">
+        <MappingFragment StoreEntitySet="tbdtKhuyenmai">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="Mui" ColumnName="Mui" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Slmua" ColumnName="Slmua" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="tyle" ColumnName="tyle" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="Loaimua" ColumnName="Loaimua" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="LoaiKM" ColumnName="LoaiKM" />
+          <ScalarProperty Name="Valuekm" ColumnName="Valuekm" />
+          <ScalarProperty Name="Loaimua1" ColumnName="Loaimua1" />
+          <ScalarProperty Name="Value1" ColumnName="Value1" />
+          <ScalarProperty Name="Loaimua2" ColumnName="Loaimua2" />
+          <ScalarProperty Name="Value2" ColumnName="Value2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbItems">
+      <EntityTypeMapping TypeName="SSM2014Model.tbItem">
+        <MappingFragment StoreEntitySet="tbItems">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemnameEng" ColumnName="ItemnameEng" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Subbrand" ColumnName="Subbrand" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Volumn" ColumnName="Volumn" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="OldItemcode" ColumnName="OldItemcode" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+          <ScalarProperty Name="mui" ColumnName="mui" />
+          <ScalarProperty Name="varUnit" ColumnName="varUnit" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="Thung" ColumnName="Thung" />
+          <ScalarProperty Name="Cogs" ColumnName="Cogs" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbItemsGrps">
+      <EntityTypeMapping TypeName="SSM2014Model.tbItemsGrp">
+        <MappingFragment StoreEntitySet="tbItemsGrp">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ItemGrp" ColumnName="ItemGrp" />
+          <ScalarProperty Name="GroupQu" ColumnName="GroupQu" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemQu" ColumnName="ItemQu" />
+          <ScalarProperty Name="Tyle" ColumnName="Tyle" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Vesion" ColumnName="Vesion" />
+          <ScalarProperty Name="newcode" ColumnName="newcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbllogs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbllog">
+        <MappingFragment StoreEntitySet="tbllog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Manpp" ColumnName="Manpp" />
+          <ScalarProperty Name="DateSend" ColumnName="DateSend" />
+          <ScalarProperty Name="Dateupdate" ColumnName="Dateupdate" />
+          <ScalarProperty Name="datemax" ColumnName="datemax" />
+          <ScalarProperty Name="users" ColumnName="users" />
+          <ScalarProperty Name="Lydo" ColumnName="Lydo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMaterial_Temp">
+      <EntityTypeMapping TypeName="SSM2014Model.tblMaterial_Temp">
+        <MappingFragment StoreEntitySet="tblMaterial_Temp">
+          <ScalarProperty Name="MATERIAL" ColumnName="MATERIAL" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="TYPEs" ColumnName="TYPEs" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="GROSS_WEIGHT" ColumnName="GROSS_WEIGHT" />
+          <ScalarProperty Name="WEIGHT_UNIT" ColumnName="WEIGHT_UNIT" />
+          <ScalarProperty Name="VOLUME" ColumnName="VOLUME" />
+          <ScalarProperty Name="RBP" ColumnName="RBP" />
+          <ScalarProperty Name="OLD_MATERIAL" ColumnName="OLD_MATERIAL" />
+          <ScalarProperty Name="CATEGORY" ColumnName="CATEGORY" />
+          <ScalarProperty Name="SUB_BRAND" ColumnName="SUB_BRAND" />
+          <ScalarProperty Name="VARIANTS" ColumnName="VARIANTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbLoaiCTs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbLoaiCT">
+        <MappingFragment StoreEntitySet="tbLoaiCT">
+          <ScalarProperty Name="LoaiCT" ColumnName="LoaiCT" />
+          <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbnhans">
+      <EntityTypeMapping TypeName="SSM2014Model.tbnhan">
+        <MappingFragment StoreEntitySet="tbnhan">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cat" ColumnName="Cat" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPeriods">
+      <EntityTypeMapping TypeName="SSM2014Model.tbPeriod">
+        <MappingFragment StoreEntitySet="tbPeriod">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Lock" ColumnName="Lock" />
+          <ScalarProperty Name="Lock_pro" ColumnName="Lock_pro" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPhanBoes">
+      <EntityTypeMapping TypeName="SSM2014Model.tbPhanBo">
+        <MappingFragment StoreEntitySet="tbPhanBo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Channer" ColumnName="Channer" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="Itemcoe" ColumnName="Itemcoe" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Datefrom" ColumnName="Datefrom" />
+          <ScalarProperty Name="Dateto" ColumnName="Dateto" />
+          <ScalarProperty Name="Datefree" ColumnName="Datefree" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="Usercreate" ColumnName="Usercreate" />
+          <ScalarProperty Name="Datescreate" ColumnName="Datescreate" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+          <ScalarProperty Name="Dateschange" ColumnName="Dateschange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBQuyenUsers">
+      <EntityTypeMapping TypeName="SSM2014Model.TBQuyenUser">
+        <MappingFragment StoreEntitySet="TBQuyenUser">
+          <ScalarProperty Name="Tendangnhap" ColumnName="Tendangnhap" />
+          <ScalarProperty Name="Bophan" ColumnName="Bophan" />
+          <ScalarProperty Name="channel" ColumnName="channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+          <ScalarProperty Name="xem" ColumnName="xem" />
+          <ScalarProperty Name="sua" ColumnName="sua" />
+          <ScalarProperty Name="checks" ColumnName="checks" />
+          <ScalarProperty Name="aprover" ColumnName="aprover" />
+          <ScalarProperty Name="office" ColumnName="office" />
+          <ScalarProperty Name="dh" ColumnName="dh" />
+          <ScalarProperty Name="dhar" ColumnName="dhar" />
+          <ScalarProperty Name="kho" ColumnName="kho" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbSalesINs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbSalesIN">
+        <MappingFragment StoreEntitySet="tbSalesIN">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Ordernr" ColumnName="Ordernr" />
+          <ScalarProperty Name="Invnr" ColumnName="Invnr" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AmountRBP" ColumnName="AmountRBP" />
+          <ScalarProperty Name="AmountINV" ColumnName="AmountINV" />
+          <ScalarProperty Name="Transactiontype" ColumnName="Transactiontype" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbStocks">
+      <EntityTypeMapping TypeName="SSM2014Model.tbStock">
+        <MappingFragment StoreEntitySet="tbStock">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Available" ColumnName="Available" />
+          <ScalarProperty Name="Av_temp" ColumnName="Av_temp" />
+          <ScalarProperty Name="datestock" ColumnName="datestock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbWeeks">
+      <EntityTypeMapping TypeName="SSM2014Model.tbWeek">
+        <MappingFragment StoreEntitySet="tbWeek">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="ChuKy" ColumnName="ChuKy" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayKT" ColumnName="NgayKT" />
+          <ScalarProperty Name="NgayGui" ColumnName="NgayGui" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bpnpps">
+      <EntityTypeMapping TypeName="SSM2014Model.bpnpp">
+        <MappingFragment StoreEntitySet="bpnpp">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="itens">
+      <EntityTypeMapping TypeName="SSM2014Model.iten">
+        <MappingFragment StoreEntitySet="iten">
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sddoanhso_BK">
+      <EntityTypeMapping TypeName="SSM2014Model.sddoanhso_BK">
+        <MappingFragment StoreEntitySet="sddoanhso_BK">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="USERs" ColumnName="USERs" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDDoanhso2">
+      <EntityTypeMapping TypeName="SSM2014Model.SDDoanhso2">
+        <MappingFragment StoreEntitySet="SDDoanhso2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SddoanhsoHs">
+      <EntityTypeMapping TypeName="SSM2014Model.SddoanhsoH">
+        <MappingFragment StoreEntitySet="SddoanhsoH">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="dh" ColumnName="dh" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="KhuyenMai" ColumnName="KhuyenMai" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="sku" ColumnName="sku" />
+          <ScalarProperty Name="SKUTach" ColumnName="SKUTach" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDnhapxuats">
+      <EntityTypeMapping TypeName="SSM2014Model.SDnhapxuat">
+        <MappingFragment StoreEntitySet="SDnhapxuat">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHB" ColumnName="XuatDHB" />
+          <ScalarProperty Name="XuatDKM" ColumnName="XuatDKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDTondaus">
+      <EntityTypeMapping TypeName="SSM2014Model.SDTondau">
+        <MappingFragment StoreEntitySet="SDTondau">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonHB" ColumnName="TonHB" />
+          <ScalarProperty Name="TonKM" ColumnName="TonKM" />
+          <ScalarProperty Name="TonTU" ColumnName="TonTU" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDTonkho_temp">
+      <EntityTypeMapping TypeName="SSM2014Model.SDTonkho_temp">
+        <MappingFragment StoreEntitySet="SDTonkho_temp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonHB" ColumnName="TonHB" />
+          <ScalarProperty Name="TonKM" ColumnName="TonKM" />
+          <ScalarProperty Name="TonTU" ColumnName="TonTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockHistories">
+      <EntityTypeMapping TypeName="SSM2014Model.StockHistory">
+        <MappingFragment StoreEntitySet="StockHistory">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+          <ScalarProperty Name="Datecreat" ColumnName="Datecreat" />
+          <ScalarProperty Name="Datechange" ColumnName="Datechange" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CTKM">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_CTKM">
+        <MappingFragment StoreEntitySet="TB_CTKM">
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="Ten_CTKM" ColumnName="Ten_CTKM" />
+          <ScalarProperty Name="Tungay" ColumnName="Tungay" />
+          <ScalarProperty Name="DenNgay" ColumnName="DenNgay" />
+          <ScalarProperty Name="Ngansach_DT" ColumnName="Ngansach_DT" />
+          <ScalarProperty Name="Ngansach_CL" ColumnName="Ngansach_CL" />
+          <ScalarProperty Name="Loai_Doituong" ColumnName="Loai_Doituong" />
+          <ScalarProperty Name="Loai_Chitra" ColumnName="Loai_Chitra" />
+          <ScalarProperty Name="Capnhat" ColumnName="Capnhat" />
+          <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+          <ScalarProperty Name="Soluong_SKU" ColumnName="Soluong_SKU" />
+          <ScalarProperty Name="Soluong_SP" ColumnName="Soluong_SP" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+          <ScalarProperty Name="apdung" ColumnName="apdung" />
+          <ScalarProperty Name="capdo" ColumnName="capdo" />
+          <ScalarProperty Name="Quydoi" ColumnName="Quydoi" />
+          <ScalarProperty Name="CTchinh" ColumnName="CTchinh" />
+          <ScalarProperty Name="Phantram" ColumnName="Phantram" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CTKM_Chitra">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_CTKM_Chitra">
+        <MappingFragment StoreEntitySet="TB_CTKM_Chitra">
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="MS_SP" ColumnName="MS_SP" />
+          <ScalarProperty Name="TenSp" ColumnName="TenSp" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+          <ScalarProperty Name="Giamgia" ColumnName="Giamgia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_CTKM_Doituong">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_CTKM_Doituong">
+        <MappingFragment StoreEntitySet="TB_CTKM_Doituong">
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="MS_SP" ColumnName="MS_SP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DVTQD">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_DVTQD">
+        <MappingFragment StoreEntitySet="TB_DVTQD">
+          <ScalarProperty Name="MS_DVT" ColumnName="MS_DVT" />
+          <ScalarProperty Name="Ten_DVT" ColumnName="Ten_DVT" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DVTQD_CT">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_DVTQD_CT">
+        <MappingFragment StoreEntitySet="TB_DVTQD_CT">
+          <ScalarProperty Name="MS_DVT" ColumnName="MS_DVT" />
+          <ScalarProperty Name="MS_SP" ColumnName="MS_SP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_LoaiSP">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_LoaiSP">
+        <MappingFragment StoreEntitySet="TB_LoaiSP">
+          <ScalarProperty Name="MS_LoaiSP" ColumnName="MS_LoaiSP" />
+          <ScalarProperty Name="TenloaiSP" ColumnName="TenloaiSP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Quydoi">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_Quydoi">
+        <MappingFragment StoreEntitySet="TB_Quydoi">
+          <ScalarProperty Name="MS_QD" ColumnName="MS_QD" />
+          <ScalarProperty Name="Tenquydoi" ColumnName="Tenquydoi" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Quydoi_Cuoi">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_Quydoi_Cuoi">
+        <MappingFragment StoreEntitySet="TB_Quydoi_Cuoi">
+          <ScalarProperty Name="MS_QD" ColumnName="MS_QD" />
+          <ScalarProperty Name="MS_SP" ColumnName="MS_SP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_Quydoi_Dau">
+      <EntityTypeMapping TypeName="SSM2014Model.TB_Quydoi_Dau">
+        <MappingFragment StoreEntitySet="TB_Quydoi_Dau">
+          <ScalarProperty Name="MS_QD" ColumnName="MS_QD" />
+          <ScalarProperty Name="MS_SP" ColumnName="MS_SP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbItemsGrp1">
+      <EntityTypeMapping TypeName="SSM2014Model.tbItemsGrp1">
+        <MappingFragment StoreEntitySet="tbItemsGrp1">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ItemGrp" ColumnName="ItemGrp" />
+          <ScalarProperty Name="GroupQu" ColumnName="GroupQu" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemQu" ColumnName="ItemQu" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Vesion" ColumnName="Vesion" />
+          <ScalarProperty Name="newcode" ColumnName="newcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBaophus">
+      <EntityTypeMapping TypeName="SSM2014Model.tblBaophu">
+        <MappingFragment StoreEntitySet="tblBaophu">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPeriodOpenHs">
+      <EntityTypeMapping TypeName="SSM2014Model.tbPeriodOpenH">
+        <MappingFragment StoreEntitySet="tbPeriodOpenH">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayKT" ColumnName="NgayKT" />
+          <ScalarProperty Name="Ngaymo" ColumnName="Ngaymo" />
+          <ScalarProperty Name="Ngaydong" ColumnName="Ngaydong" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+          <ScalarProperty Name="NguoiMo" ColumnName="NguoiMo" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="IDs" ColumnName="IDs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbversions">
+      <EntityTypeMapping TypeName="SSM2014Model.tbversion">
+        <MappingFragment StoreEntitySet="tbversion">
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="Trangthai" ColumnName="Trangthai" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tinhs">
+      <EntityTypeMapping TypeName="SSM2014Model.tinh">
+        <MappingFragment StoreEntitySet="tinh">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tinh1" ColumnName="Tinh" />
+          <ScalarProperty Name="State1" ColumnName="State1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tonkho22">
+      <EntityTypeMapping TypeName="SSM2014Model.tonkho22">
+        <MappingFragment StoreEntitySet="tonkho22">
+          <ScalarProperty Name="manpp" ColumnName="manpp" />
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="tondau" ColumnName="tondau" />
+          <ScalarProperty Name="nhaphangban" ColumnName="nhaphangban" />
+          <ScalarProperty Name="nhapKM" ColumnName="nhapKM" />
+          <ScalarProperty Name="xuathangban" ColumnName="xuathangban" />
+          <ScalarProperty Name="xuatkm" ColumnName="xuatkm" />
+          <ScalarProperty Name="toncuoi" ColumnName="toncuoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="anh_tu_enneries">
+      <EntityTypeMapping TypeName="SSM2014Model.anh_tu_ennery">
+        <MappingFragment StoreEntitySet="anh tu ennery">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Debname" ColumnName="Debname" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemnameEng" ColumnName="ItemnameEng" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Volumn" ColumnName="Volumn" />
+          <ScalarProperty Name="mui" ColumnName="mui" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Ban" ColumnName="Ban" />
+          <ScalarProperty Name="BanKM" ColumnName="BanKM" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="bankkm" ColumnName="bankkm" />
+          <ScalarProperty Name="nhap" ColumnName="nhap" />
+          <ScalarProperty Name="napkm" ColumnName="napkm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTNhapXuats">
+      <EntityTypeMapping TypeName="SSM2014Model.CTNhapXuat">
+        <MappingFragment StoreEntitySet="CTNhapXuat">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhapXuats">
+      <EntityTypeMapping TypeName="SSM2014Model.NhapXuat">
+        <MappingFragment StoreEntitySet="NhapXuat">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Item">
+      <EntityTypeMapping TypeName="SSM2014Model.v_Item">
+        <MappingFragment StoreEntitySet="v_Item">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPEn" ColumnName="TenSPEn" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="Nhanphu" ColumnName="Nhanphu" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="Dungtich" ColumnName="Dungtich" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_SalesDailyMT">
+      <EntityTypeMapping TypeName="SSM2014Model.v_SalesDailyMT">
+        <MappingFragment StoreEntitySet="v_SalesDailyMT">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+          <ScalarProperty Name="datum" ColumnName="datum" />
+          <ScalarProperty Name="orderno" ColumnName="orderno" />
+          <ScalarProperty Name="docnumber" ColumnName="docnumber" />
+          <ScalarProperty Name="oms25" ColumnName="oms25" />
+          <ScalarProperty Name="artcode" ColumnName="artcode" />
+          <ScalarProperty Name="rbp" ColumnName="rbp" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="amountrbp" ColumnName="amountrbp" />
+          <ScalarProperty Name="amountinv" ColumnName="amountinv" />
+          <ScalarProperty Name="transactiontype" ColumnName="transactiontype" />
+          <ScalarProperty Name="spreiod" ColumnName="spreiod" />
+          <ScalarProperty Name="syear" ColumnName="syear" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_1">
+      <EntityTypeMapping TypeName="SSM2014Model.View_1">
+        <MappingFragment StoreEntitySet="View_1">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="dh" ColumnName="dh" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="KhuyenMai" ColumnName="KhuyenMai" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="sku" ColumnName="sku" />
+          <ScalarProperty Name="SKUTach" ColumnName="SKUTach" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_2s">
+      <EntityTypeMapping TypeName="SSM2014Model.View_2s">
+        <MappingFragment StoreEntitySet="View_2s">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="USERs" ColumnName="USERs" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+          <ScalarProperty Name="mctts" ColumnName="mctts" />
+          <ScalarProperty Name="smua" ColumnName="smua" />
+          <ScalarProperty Name="slquydoi" ColumnName="slquydoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_Itemgroup">
+      <EntityTypeMapping TypeName="SSM2014Model.View_Itemgroup">
+        <MappingFragment StoreEntitySet="View_Itemgroup">
+          <ScalarProperty Name="ItemGrp" ColumnName="ItemGrp" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemQu" ColumnName="ItemQu" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="GrpRBP" ColumnName="GrpRBP" />
+          <ScalarProperty Name="ItemRRBP" ColumnName="ItemRRBP" />
+          <ScalarProperty Name="tyle" ColumnName="tyle" />
+          <ScalarProperty Name="GrpPriceAvt" ColumnName="GrpPriceAvt" />
+          <ScalarProperty Name="Vesion" ColumnName="Vesion" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="Volumn" ColumnName="Volumn" />
+          <ScalarProperty Name="Subbrand" ColumnName="Subbrand" />
+          <ScalarProperty Name="GroupQu" ColumnName="GroupQu" />
+          <ScalarProperty Name="mui" ColumnName="mui" />
+          <ScalarProperty Name="Nhan" ColumnName="Nhan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_doituong">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_doituong">
+        <MappingFragment StoreEntitySet="vw_doituong">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_doituongKM">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_doituongKM">
+        <MappingFragment StoreEntitySet="vw_doituongKM">
+          <ScalarProperty Name="MaSp" ColumnName="MaSp" />
+          <ScalarProperty Name="Mact" ColumnName="Mact" />
+          <ScalarProperty Name="Loaimua" ColumnName="Loaimua" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="loaikm" ColumnName="loaikm" />
+          <ScalarProperty Name="valuekm" ColumnName="valuekm" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_doituongnpp">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_doituongnpp">
+        <MappingFragment StoreEntitySet="Vw_doituongnpp">
+          <ScalarProperty Name="Manpp" ColumnName="Manpp" />
+          <ScalarProperty Name="Mact" ColumnName="Mact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_doituongs">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_doituongs">
+        <MappingFragment StoreEntitySet="vw_doituongs">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_ds_1_bk">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_ds_1_bk">
+        <MappingFragment StoreEntitySet="Vw_ds_1_bk">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="KhuyenMai" ColumnName="KhuyenMai" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="SLthamchieu" ColumnName="SLthamchieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_dsFull">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_dsFull">
+        <MappingFragment StoreEntitySet="Vw_dsFull">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="ItemcodeSub" ColumnName="ItemcodeSub" />
+          <ScalarProperty Name="GrpName" ColumnName="GrpName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_dtcombo">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_dtcombo">
+        <MappingFragment StoreEntitySet="Vw_dtcombo">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+          <ScalarProperty Name="combo" ColumnName="combo" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_dtcombo_km">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_dtcombo_km">
+        <MappingFragment StoreEntitySet="vw_dtcombo_km">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+          <ScalarProperty Name="combo" ColumnName="combo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_dtcombo_tien">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_dtcombo_tien">
+        <MappingFragment StoreEntitySet="vw_dtcombo_tien">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+          <ScalarProperty Name="combo" ColumnName="combo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_dtcombomin">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_dtcombomin">
+        <MappingFragment StoreEntitySet="vw_dtcombomin">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="mact" ColumnName="mact" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="slqd" ColumnName="slqd" />
+          <ScalarProperty Name="combo" ColumnName="combo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_items">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_items">
+        <MappingFragment StoreEntitySet="Vw_items">
+          <ScalarProperty Name="Itemgrp" ColumnName="Itemgrp" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_Km_dt">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_Km_dt">
+        <MappingFragment StoreEntitySet="Vw_Km_dt">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="MS_CTKM" ColumnName="MS_CTKM" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_NX">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_NX">
+        <MappingFragment StoreEntitySet="Vw_NX">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHB" ColumnName="XuatDHB" />
+          <ScalarProperty Name="XuatDKM" ColumnName="XuatDKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_stock">
+      <EntityTypeMapping TypeName="SSM2014Model.vw_stock">
+        <MappingFragment StoreEntitySet="vw_stock">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Volumn" ColumnName="Volumn" />
+          <ScalarProperty Name="OldItemcode" ColumnName="OldItemcode" />
+          <ScalarProperty Name="Thung" ColumnName="Thung" />
+          <ScalarProperty Name="Storage" ColumnName="Storage" />
+          <ScalarProperty Name="Stock" ColumnName="Stock" />
+          <ScalarProperty Name="Available" ColumnName="Available" />
+          <ScalarProperty Name="dh" ColumnName="dh" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="datestock" ColumnName="datestock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_webFull">
+      <EntityTypeMapping TypeName="SSM2014Model.Vw_webFull">
+        <MappingFragment StoreEntitySet="Vw_webFull">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwDataHNs">
+      <EntityTypeMapping TypeName="SSM2014Model.vwDataHN">
+        <MappingFragment StoreEntitySet="vwDataHN">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwdoanhsofulls">
+      <EntityTypeMapping TypeName="SSM2014Model.vwdoanhsofull">
+        <MappingFragment StoreEntitySet="vwdoanhsofull">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="diachii" ColumnName="diachii" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDFullDatas">
+      <EntityTypeMapping TypeName="SSM2014Model.vwSDFullData">
+        <MappingFragment StoreEntitySet="vwSDFullData">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDTonSKUs">
+      <EntityTypeMapping TypeName="SSM2014Model.vwSDTonSKU">
+        <MappingFragment StoreEntitySet="vwSDTonSKU">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHB" ColumnName="XuatDHB" />
+          <ScalarProperty Name="XuatDKM" ColumnName="XuatDKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDXuatNhapTons">
+      <EntityTypeMapping TypeName="SSM2014Model.vwSDXuatNhapTon">
+        <MappingFragment StoreEntitySet="vwSDXuatNhapTon">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

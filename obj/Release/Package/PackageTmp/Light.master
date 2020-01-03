@@ -1,0 +1,17 @@
+<%@ Master Language="VB" MasterPageFile="~/Root.master" AutoEventWireup="true" CodeBehind="Light.master.vb" Inherits="WEB.SSM.LightMaster" %>
+
+<%-- DXCOMMENT: Page Light.master is a master page for Account pages --%>
+<asp:Content ID="Content1" ContentPlaceHolderID="Content" runat="server">
+
+    <div class="content">
+    <dx:ASPxPanel ID="ASPxPanel1" runat="server" Width="100%" Theme="Glass">
+        <Paddings PaddingLeft="10px" PaddingRight="10px" />
+        <PanelCollection>
+            <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxPanel>
+
+</div>
+</asp:Content>

@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SSM2014Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SSM2014ModelStoreContainer">
+    <EntitySet Name="bpnpp" EntityType="SSM2014Model.Store.bpnpp" store:Type="Tables" store:Schema="dbo" store:Name="bpnpp">
+      <DefiningQuery>SELECT 
+      [bpnpp].[MaNPP] AS [MaNPP], 
+      [bpnpp].[TenNPP] AS [TenNPP], 
+      [bpnpp].[Channel] AS [Channel], 
+      [bpnpp].[Subregion] AS [Subregion], 
+      [bpnpp].[Area] AS [Area], 
+      [bpnpp].[Province] AS [Province], 
+      [bpnpp].[Tongtien] AS [Tongtien], 
+      [bpnpp].[SLNV] AS [SLNV], 
+      [bpnpp].[SLDonhang] AS [SLDonhang], 
+      [bpnpp].[SLKHMua] AS [SLKHMua], 
+      [bpnpp].[SLKHQuanly] AS [SLKHQuanly], 
+      [bpnpp].[SLSKU] AS [SLSKU], 
+      [bpnpp].[TyleKHMua] AS [TyleKHMua], 
+      [bpnpp].[TyleDH_KH] AS [TyleDH_KH], 
+      [bpnpp].[TyleDS_DH] AS [TyleDS_DH], 
+      [bpnpp].[TyleSKU_DH] AS [TyleSKU_DH]
+      FROM [dbo].[bpnpp] AS [bpnpp]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SDDoanhso" EntityType="SSM2014Model.Store.SDDoanhso" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDDoanhso2" EntityType="SSM2014Model.Store.SDDoanhso2" store:Type="Tables" store:Schema="dbo" store:Name="SDDoanhso2">
+      <DefiningQuery>SELECT 
+      [SDDoanhso2].[Id] AS [Id], 
+      [SDDoanhso2].[MaNPP] AS [MaNPP], 
+      [SDDoanhso2].[MaXK] AS [MaXK], 
+      [SDDoanhso2].[Ngay] AS [Ngay], 
+      [SDDoanhso2].[MaNV] AS [MaNV], 
+      [SDDoanhso2].[MaKH] AS [MaKH], 
+      [SDDoanhso2].[Type] AS [Type], 
+      [SDDoanhso2].[MaSP] AS [MaSP], 
+      [SDDoanhso2].[Soluong] AS [Soluong], 
+      [SDDoanhso2].[Dongia] AS [Dongia], 
+      [SDDoanhso2].[TyleCK] AS [TyleCK], 
+      [SDDoanhso2].[Khuyenmai] AS [Khuyenmai], 
+      [SDDoanhso2].[TienCK] AS [TienCK], 
+      [SDDoanhso2].[Thanhtien] AS [Thanhtien], 
+      [SDDoanhso2].[Loai] AS [Loai], 
+      [SDDoanhso2].[MaCT] AS [MaCT]
+      FROM [dbo].[SDDoanhso2] AS [SDDoanhso2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SDKhachhang" EntityType="SSM2014Model.Store.SDKhachhang" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDKhachhang1" EntityType="SSM2014Model.Store.SDKhachhang1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDKhachhangNV" EntityType="SSM2014Model.Store.SDKhachhangNV" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDNhanvien" EntityType="SSM2014Model.Store.SDNhanvien" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDNhanvien1" EntityType="SSM2014Model.Store.SDNhanvien1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SDTondau" EntityType="SSM2014Model.Store.SDTondau" store:Type="Tables" store:Schema="dbo" store:Name="SDTondau">
+      <DefiningQuery>SELECT 
+      [SDTondau].[MaNPP] AS [MaNPP], 
+      [SDTondau].[MaSP] AS [MaSP], 
+      [SDTondau].[TonDK] AS [TonDK], 
+      [SDTondau].[TonHB] AS [TonHB], 
+      [SDTondau].[TonKM] AS [TonKM], 
+      [SDTondau].[TonTU] AS [TonTU], 
+      [SDTondau].[Id] AS [Id]
+      FROM [dbo].[SDTondau] AS [SDTondau]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="StockHistory" EntityType="SSM2014Model.Store.StockHistory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="SSM2014Model.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TB_DangNhap" EntityType="SSM2014Model.Store.TB_DangNhap" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbActive" EntityType="SSM2014Model.Store.tbActive" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbCTKM" EntityType="SSM2014Model.Store.tbCTKM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbCustomer" EntityType="SSM2014Model.Store.tbCustomer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbCustomerS" EntityType="SSM2014Model.Store.tbCustomerS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbItems" EntityType="SSM2014Model.Store.tbItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblBaophu" EntityType="SSM2014Model.Store.tblBaophu" store:Type="Tables" store:Schema="dbo" store:Name="tblBaophu">
+      <DefiningQuery>SELECT 
+      [tblBaophu].[MaNPP] AS [MaNPP], 
+      [tblBaophu].[TenNPP] AS [TenNPP], 
+      [tblBaophu].[Channel] AS [Channel], 
+      [tblBaophu].[Subregion] AS [Subregion], 
+      [tblBaophu].[Area] AS [Area], 
+      [tblBaophu].[Province] AS [Province], 
+      [tblBaophu].[Tongtien] AS [Tongtien], 
+      [tblBaophu].[SLNV] AS [SLNV], 
+      [tblBaophu].[SLDonhang] AS [SLDonhang], 
+      [tblBaophu].[SLKHMua] AS [SLKHMua], 
+      [tblBaophu].[SLKHQuanly] AS [SLKHQuanly], 
+      [tblBaophu].[SLSKU] AS [SLSKU], 
+      [tblBaophu].[TyleKHMua] AS [TyleKHMua], 
+      [tblBaophu].[TyleDH_KH] AS [TyleDH_KH], 
+      [tblBaophu].[TyleDS_DH] AS [TyleDS_DH], 
+      [tblBaophu].[TyleSKU_DH] AS [TyleSKU_DH]
+      FROM [dbo].[tblBaophu] AS [tblBaophu]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tbllog" EntityType="SSM2014Model.Store.tbllog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tblMaterial_Temp" EntityType="SSM2014Model.Store.tblMaterial_Temp" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbLoaiCT" EntityType="SSM2014Model.Store.tbLoaiCT" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbPeriod" EntityType="SSM2014Model.Store.tbPeriod" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbPeriodOpenH" EntityType="SSM2014Model.Store.tbPeriodOpenH" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TBQuyenUser" EntityType="SSM2014Model.Store.TBQuyenUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbSalesIN" EntityType="SSM2014Model.Store.tbSalesIN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tbWeek" EntityType="SSM2014Model.Store.tbWeek" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tonkho22" EntityType="SSM2014Model.Store.tonkho22" store:Type="Tables" store:Schema="dbo" store:Name="tonkho22">
+      <DefiningQuery>SELECT 
+      [tonkho22].[manpp] AS [manpp], 
+      [tonkho22].[thang] AS [thang], 
+      [tonkho22].[tondau] AS [tondau], 
+      [tonkho22].[nhaphangban] AS [nhaphangban], 
+      [tonkho22].[nhapKM] AS [nhapKM], 
+      [tonkho22].[xuathangban] AS [xuathangban], 
+      [tonkho22].[xuatkm] AS [xuatkm], 
+      [tonkho22].[toncuoi] AS [toncuoi]
+      FROM [dbo].[tonkho22] AS [tonkho22]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Vw_webFull" EntityType="SSM2014Model.Store.Vw_webFull" store:Type="Views" store:Schema="dbo" store:Name="Vw_webFull">
+      <DefiningQuery>SELECT 
+      [Vw_webFull].[MaNPP] AS [MaNPP], 
+      [Vw_webFull].[TenNPP] AS [TenNPP], 
+      [Vw_webFull].[Region] AS [Region], 
+      [Vw_webFull].[Area] AS [Area], 
+      [Vw_webFull].[Territory] AS [Territory], 
+      [Vw_webFull].[MaCT] AS [MaCT], 
+      [Vw_webFull].[TenCT] AS [TenCT], 
+      [Vw_webFull].[MaXK] AS [MaXK], 
+      [Vw_webFull].[MaSP] AS [MaSP], 
+      [Vw_webFull].[TenSP] AS [TenSP], 
+      [Vw_webFull].[Price] AS [Price], 
+      [Vw_webFull].[NhanSP] AS [NhanSP], 
+      [Vw_webFull].[LoaiSP] AS [LoaiSP], 
+      [Vw_webFull].[TienCK] AS [TienCK], 
+      [Vw_webFull].[SLKM] AS [SLKM], 
+      [Vw_webFull].[Khuyenmai] AS [Khuyenmai], 
+      [Vw_webFull].[SLTU] AS [SLTU], 
+      [Vw_webFull].[TienTU] AS [TienTU], 
+      [Vw_webFull].[SLHB] AS [SLHB], 
+      [Vw_webFull].[Thanhtien] AS [Thanhtien], 
+      [Vw_webFull].[Ngay] AS [Ngay], 
+      [Vw_webFull].[MaKH] AS [MaKH], 
+      [Vw_webFull].[Tenkh] AS [Tenkh], 
+      [Vw_webFull].[Diachi] AS [Diachi], 
+      [Vw_webFull].[Phuong] AS [Phuong], 
+      [Vw_webFull].[Quan] AS [Quan], 
+      [Vw_webFull].[Thanhpho] AS [Thanhpho], 
+      [Vw_webFull].[MaNV] AS [MaNV], 
+      [Vw_webFull].[Hoten] AS [Hoten], 
+      [Vw_webFull].[sPeriod] AS [sPeriod], 
+      [Vw_webFull].[sYear] AS [sYear], 
+      [Vw_webFull].[Loai] AS [Loai], 
+      [Vw_webFull].[NgayXK] AS [NgayXK]
+      FROM [dbo].[Vw_webFull] AS [Vw_webFull]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwDataHN" EntityType="SSM2014Model.Store.vwDataHN" store:Type="Views" store:Schema="dbo" store:Name="vwDataHN">
+      <DefiningQuery>SELECT 
+      [vwDataHN].[MaNPP] AS [MaNPP], 
+      [vwDataHN].[TenNPP] AS [TenNPP], 
+      [vwDataHN].[Channel] AS [Channel], 
+      [vwDataHN].[Region] AS [Region], 
+      [vwDataHN].[Subregion] AS [Subregion], 
+      [vwDataHN].[Sdf] AS [Sdf], 
+      [vwDataHN].[Area] AS [Area], 
+      [vwDataHN].[Province] AS [Province], 
+      [vwDataHN].[Territory] AS [Territory], 
+      [vwDataHN].[MaCT] AS [MaCT], 
+      [vwDataHN].[TenCT] AS [TenCT], 
+      [vwDataHN].[MaXK] AS [MaXK], 
+      [vwDataHN].[MaSP] AS [MaSP], 
+      [vwDataHN].[TenSP] AS [TenSP], 
+      [vwDataHN].[Price] AS [Price], 
+      [vwDataHN].[NhanSP] AS [NhanSP], 
+      [vwDataHN].[LoaiSP] AS [LoaiSP], 
+      [vwDataHN].[TienCK] AS [TienCK], 
+      [vwDataHN].[SLKM] AS [SLKM], 
+      [vwDataHN].[Khuyenmai] AS [Khuyenmai], 
+      [vwDataHN].[SLTU] AS [SLTU], 
+      [vwDataHN].[TienTU] AS [TienTU], 
+      [vwDataHN].[SLHB] AS [SLHB], 
+      [vwDataHN].[Thanhtien] AS [Thanhtien], 
+      [vwDataHN].[Ngay] AS [Ngay], 
+      [vwDataHN].[MaKH] AS [MaKH], 
+      [vwDataHN].[Tenkh] AS [Tenkh], 
+      [vwDataHN].[Diachi] AS [Diachi], 
+      [vwDataHN].[Phuong] AS [Phuong], 
+      [vwDataHN].[Quan] AS [Quan], 
+      [vwDataHN].[Thanhpho] AS [Thanhpho], 
+      [vwDataHN].[MaNV] AS [MaNV], 
+      [vwDataHN].[Hoten] AS [Hoten], 
+      [vwDataHN].[sPeriod] AS [sPeriod], 
+      [vwDataHN].[sYear] AS [sYear], 
+      [vwDataHN].[Loai] AS [Loai], 
+      [vwDataHN].[NgayXK] AS [NgayXK], 
+      [vwDataHN].[Tuan] AS [Tuan]
+      FROM [dbo].[vwDataHN] AS [vwDataHN]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwSDXuatNhapTon" EntityType="SSM2014Model.Store.vwSDXuatNhapTon" store:Type="Views" store:Schema="dbo" store:Name="vwSDXuatNhapTon">
+      <DefiningQuery>SELECT 
+      [vwSDXuatNhapTon].[MaNPP] AS [MaNPP], 
+      [vwSDXuatNhapTon].[Ngay] AS [Ngay], 
+      [vwSDXuatNhapTon].[MaSP] AS [MaSP], 
+      [vwSDXuatNhapTon].[Tuan] AS [Tuan], 
+      [vwSDXuatNhapTon].[XuatHB] AS [XuatHB], 
+      [vwSDXuatNhapTon].[XuatKM] AS [XuatKM], 
+      [vwSDXuatNhapTon].[XuatTU] AS [XuatTU], 
+      [vwSDXuatNhapTon].[NhapHB] AS [NhapHB], 
+      [vwSDXuatNhapTon].[NhapKM] AS [NhapKM], 
+      [vwSDXuatNhapTon].[NhapTU] AS [NhapTU]
+      FROM [dbo].[vwSDXuatNhapTon] AS [vwSDXuatNhapTon]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.bpnpp' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="bpnpp">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Channel" Type="nvarchar" MaxLength="20" />
+    <Property Name="Subregion" Type="nvarchar" MaxLength="20" />
+    <Property Name="Area" Type="nvarchar" MaxLength="20" />
+    <Property Name="Province" Type="nvarchar" MaxLength="20" />
+    <Property Name="Tongtien" Type="float" Nullable="false" />
+    <Property Name="SLNV" Type="int" Nullable="false" />
+    <Property Name="SLDonhang" Type="int" Nullable="false" />
+    <Property Name="SLKHMua" Type="int" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="int" Nullable="false" />
+    <Property Name="SLSKU" Type="int" Nullable="false" />
+    <Property Name="TyleKHMua" Type="float" />
+    <Property Name="TyleDH_KH" Type="float" />
+    <Property Name="TyleDS_DH" Type="float" />
+    <Property Name="TyleSKU_DH" Type="float" />
+  </EntityType>
+  <EntityType Name="SDDoanhso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaXK" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ngay" Type="smalldatetime" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="8" />
+    <Property Name="Type" Type="nvarchar" MaxLength="1" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+    <Property Name="Soluong" Type="float" />
+    <Property Name="Dongia" Type="float" />
+    <Property Name="TyleCK" Type="real" />
+    <Property Name="Khuyenmai" Type="float" />
+    <Property Name="TienCK" Type="float" />
+    <Property Name="Thanhtien" Type="float" />
+    <Property Name="Loai" Type="nvarchar" MaxLength="2" />
+    <Property Name="MaCT" Type="nvarchar" MaxLength="20" />
+    <Property Name="USERs" Type="nvarchar" MaxLength="50" />
+    <Property Name="dates" Type="smalldatetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.SDDoanhso2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="SDDoanhso2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaXK" Type="nvarchar" MaxLength="10" />
+    <Property Name="Ngay" Type="smalldatetime" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="8" />
+    <Property Name="Type" Type="nvarchar" MaxLength="1" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+    <Property Name="Soluong" Type="float" />
+    <Property Name="Dongia" Type="float" />
+    <Property Name="TyleCK" Type="real" />
+    <Property Name="Khuyenmai" Type="float" />
+    <Property Name="TienCK" Type="float" />
+    <Property Name="Thanhtien" Type="float" />
+    <Property Name="Loai" Type="nvarchar" MaxLength="2" />
+    <Property Name="MaCT" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="SDKhachhang">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="MaKH" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="Tenkh" Type="nvarchar" MaxLength="200" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="20" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="NgayHD" Type="datetime" />
+    <Property Name="Users" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lastchange" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SDKhachhang1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="MaKH" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="Tenkh" Type="nvarchar" MaxLength="200" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Fax" Type="nvarchar" MaxLength="20" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="NgayHD" Type="datetime" />
+    <Property Name="Users" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lastchange" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SDKhachhangNV">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="8" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+    <Property Name="Activer" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="SDNhanvien">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Manv" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="80" />
+    <Property Name="Ngaysinh" Type="smalldatetime" />
+    <Property Name="Ngayvao" Type="smalldatetime" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Users" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lastchange" Type="datetime" />
+  </EntityType>
+  <EntityType Name="SDNhanvien1">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Manv" Type="nvarchar" Nullable="false" MaxLength="8" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="80" />
+    <Property Name="Ngaysinh" Type="smalldatetime" />
+    <Property Name="Ngayvao" Type="smalldatetime" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Users" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lastchange" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.SDTondau' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="SDTondau">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+    <Property Name="TonDK" Type="float" />
+    <Property Name="TonHB" Type="float" />
+    <Property Name="TonKM" Type="float" />
+    <Property Name="TonTU" Type="float" />
+    <Property Name="Id" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="StockHistory">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="MaSP" />
+      <PropertyRef Name="Thang" />
+      <PropertyRef Name="Nam" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="MaSP" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Thang" Type="int" Nullable="false" />
+    <Property Name="Nam" Type="int" Nullable="false" />
+    <Property Name="Gia" Type="float" />
+    <Property Name="TonDK" Type="float" />
+    <Property Name="TonDKHB" Type="float" />
+    <Property Name="TonDKKM" Type="float" />
+    <Property Name="TonDKTU" Type="float" />
+    <Property Name="NhapHB" Type="float" />
+    <Property Name="NhapKM" Type="float" />
+    <Property Name="XuatHB" Type="float" />
+    <Property Name="XuatKM" Type="float" />
+    <Property Name="XuatDHBKM" Type="float" />
+    <Property Name="NhapTU" Type="float" />
+    <Property Name="XuatTU" Type="float" />
+    <Property Name="TonCK" Type="float" />
+    <Property Name="TonCKHB" Type="float" />
+    <Property Name="TonCKKM" Type="float" />
+    <Property Name="TonCKTU" Type="float" />
+    <Property Name="Datecreat" Type="datetime" />
+    <Property Name="Datechange" Type="datetime" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TB_DangNhap">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Usid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tendangnhap" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MaPhongban" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="matkhau" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="maquyen" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="hovaten" Type="nvarchar" MaxLength="150" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Slandangnhap" Type="bigint" />
+    <Property Name="trangthai" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbActive">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbCTKM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MaCT" Type="nvarchar" MaxLength="20" />
+    <Property Name="TenCT" Type="nvarchar" MaxLength="255" />
+    <Property Name="NhanSP" Type="nvarchar" MaxLength="10" />
+    <Property Name="LoaiCT" Type="nvarchar" MaxLength="4" />
+    <Property Name="TyleCK" Type="real" />
+    <Property Name="Ngaybd" Type="smalldatetime" />
+    <Property Name="Ngaykt" Type="smalldatetime" />
+    <Property Name="Type" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tbCustomer">
+    <Key>
+      <PropertyRef Name="Debcode" />
+    </Key>
+    <Property Name="Debcode" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Debname" Type="nvarchar" MaxLength="255" />
+    <Property Name="Debadd" Type="nvarchar" MaxLength="255" />
+    <Property Name="Classid" Type="nvarchar" MaxLength="50" />
+    <Property Name="Channel" Type="nvarchar" MaxLength="20" />
+    <Property Name="Region" Type="nvarchar" MaxLength="20" />
+    <Property Name="Subregion" Type="nvarchar" MaxLength="20" />
+    <Property Name="Sdf" Type="nvarchar" MaxLength="20" />
+    <Property Name="Area" Type="nvarchar" MaxLength="20" />
+    <Property Name="Province" Type="nvarchar" MaxLength="20" />
+    <Property Name="Territory" Type="nvarchar" MaxLength="20" />
+    <Property Name="Activer" Type="bit" />
+    <Property Name="Lastchange" Type="nvarchar" MaxLength="50" />
+    <Property Name="datechange" Type="datetime" />
+    <Property Name="Olddebcode" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbCustomerS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="smallint" Nullable="false" />
+    <Property Name="DebOption" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbItems">
+    <Key>
+      <PropertyRef Name="Itemcode" />
+    </Key>
+    <Property Name="Itemcode" Type="nvarchar" Nullable="false" MaxLength="12" />
+    <Property Name="ItemnameEng" Type="nvarchar" MaxLength="255" />
+    <Property Name="Itemname" Type="nvarchar" MaxLength="255" />
+    <Property Name="Brand" Type="nvarchar" MaxLength="255" />
+    <Property Name="Category" Type="nvarchar" MaxLength="255" />
+    <Property Name="Subbrand" Type="nvarchar" MaxLength="255" />
+    <Property Name="Unit" Type="nvarchar" MaxLength="255" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Volumn" Type="float" />
+    <Property Name="Type" Type="nvarchar" MaxLength="255" />
+    <Property Name="OldItemcode" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.tblBaophu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tblBaophu">
+    <Key>
+      <PropertyRef Name="MaNPP" />
+      <PropertyRef Name="Tongtien" />
+      <PropertyRef Name="SLNV" />
+      <PropertyRef Name="SLDonhang" />
+      <PropertyRef Name="SLKHMua" />
+      <PropertyRef Name="SLKHQuanly" />
+      <PropertyRef Name="SLSKU" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Channel" Type="nvarchar" MaxLength="20" />
+    <Property Name="Subregion" Type="nvarchar" MaxLength="20" />
+    <Property Name="Area" Type="nvarchar" MaxLength="20" />
+    <Property Name="Province" Type="nvarchar" MaxLength="20" />
+    <Property Name="Tongtien" Type="float" Nullable="false" />
+    <Property Name="SLNV" Type="int" Nullable="false" />
+    <Property Name="SLDonhang" Type="int" Nullable="false" />
+    <Property Name="SLKHMua" Type="int" Nullable="false" />
+    <Property Name="SLKHQuanly" Type="int" Nullable="false" />
+    <Property Name="SLSKU" Type="int" Nullable="false" />
+    <Property Name="TyleKHMua" Type="float" />
+    <Property Name="TyleDH_KH" Type="float" />
+    <Property Name="TyleDS_DH" Type="float" />
+    <Property Name="TyleSKU_DH" Type="float" />
+  </EntityType>
+  <EntityType Name="tbllog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Manpp" Type="nvarchar" MaxLength="20" />
+    <Property Name="DateSend" Type="datetime" />
+    <Property Name="Dateupdate" Type="datetime" />
+    <Property Name="datemax" Type="datetime" />
+    <Property Name="users" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblMaterial_Temp">
+    <Key>
+      <PropertyRef Name="MATERIAL" />
+    </Key>
+    <Property Name="MATERIAL" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="DESCRIPTION" Type="nvarchar" MaxLength="60" />
+    <Property Name="TYPEs" Type="nvarchar" MaxLength="20" />
+    <Property Name="BRAND" Type="nvarchar" MaxLength="20" />
+    <Property Name="GROSS_WEIGHT" Type="nvarchar" MaxLength="20" />
+    <Property Name="WEIGHT_UNIT" Type="nvarchar" MaxLength="20" />
+    <Property Name="VOLUME" Type="nvarchar" MaxLength="20" />
+    <Property Name="RBP" Type="nvarchar" MaxLength="20" />
+    <Property Name="OLD_MATERIAL" Type="nvarchar" MaxLength="20" />
+    <Property Name="CATEGORY" Type="nvarchar" MaxLength="20" />
+    <Property Name="SUB_BRAND" Type="nvarchar" MaxLength="20" />
+    <Property Name="VARIANTS" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="tbLoaiCT">
+    <Key>
+      <PropertyRef Name="LoaiCT" />
+    </Key>
+    <Property Name="LoaiCT" Type="nvarchar" Nullable="false" MaxLength="4" />
+    <Property Name="Diengiai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbPeriod">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="sPeriod" Type="smallint" />
+    <Property Name="sYear" Type="smallint" />
+    <Property Name="DateFrom" Type="smalldatetime" />
+    <Property Name="DateTo" Type="smalldatetime" />
+    <Property Name="Status" Type="nvarchar" MaxLength="1" />
+    <Property Name="Lock" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tbPeriodOpenH">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Manpp" Type="nvarchar" MaxLength="12" />
+    <Property Name="DateFrom" Type="smalldatetime" />
+    <Property Name="DateTo" Type="smalldatetime" />
+    <Property Name="DateClose" Type="smalldatetime" />
+    <Property Name="Status" Type="nvarchar" MaxLength="1" />
+    <Property Name="Note" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="TBQuyenUser">
+    <Key>
+      <PropertyRef Name="Tendangnhap" />
+    </Key>
+    <Property Name="Tendangnhap" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Bophan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Region" Type="nvarchar" MaxLength="50" />
+    <Property Name="Area" Type="nvarchar" MaxLength="50" />
+    <Property Name="Customer" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbSalesIN">
+    <Key>
+      <PropertyRef Name="UNID" />
+    </Key>
+    <Property Name="Debcode" Type="nvarchar" MaxLength="255" />
+    <Property Name="UNID" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="Datum" Type="smalldatetime" />
+    <Property Name="Ordernr" Type="nvarchar" MaxLength="255" />
+    <Property Name="Invnr" Type="nvarchar" MaxLength="255" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+    <Property Name="Itemcode" Type="nvarchar" MaxLength="255" />
+    <Property Name="Price" Type="float" />
+    <Property Name="Quantity" Type="float" />
+    <Property Name="AmountRBP" Type="float" />
+    <Property Name="AmountINV" Type="float" />
+    <Property Name="Transactiontype" Type="nvarchar" MaxLength="255" />
+    <Property Name="sPeriod" Type="float" />
+    <Property Name="sYear" Type="float" />
+  </EntityType>
+  <EntityType Name="tbWeek">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Tuan" Type="smallint" />
+    <Property Name="ChuKy" Type="smallint" />
+    <Property Name="Nam" Type="smallint" />
+    <Property Name="NgayBD" Type="smalldatetime" />
+    <Property Name="NgayKT" Type="smalldatetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.tonkho22' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tonkho22">
+    <Key>
+      <PropertyRef Name="manpp" />
+    </Key>
+    <Property Name="manpp" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="thang" Type="nvarchar" MaxLength="60" />
+    <Property Name="tondau" Type="float" />
+    <Property Name="nhaphangban" Type="float" />
+    <Property Name="nhapKM" Type="float" />
+    <Property Name="xuathangban" Type="float" />
+    <Property Name="xuatkm" Type="float" />
+    <Property Name="toncuoi" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.Vw_webFull' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="Vw_webFull">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Region" Type="nvarchar" MaxLength="20" />
+    <Property Name="Area" Type="nvarchar" MaxLength="20" />
+    <Property Name="Territory" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaCT" Type="nvarchar" MaxLength="210" />
+    <Property Name="TenCT" Type="nvarchar" MaxLength="255" />
+    <Property Name="MaXK" Type="nvarchar" MaxLength="10" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Price" Type="float" />
+    <Property Name="NhanSP" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="LoaiSP" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="TienCK" Type="float" />
+    <Property Name="SLKM" Type="float" />
+    <Property Name="Khuyenmai" Type="float" />
+    <Property Name="SLTU" Type="float" />
+    <Property Name="TienTU" Type="float" />
+    <Property Name="SLHB" Type="float" />
+    <Property Name="Thanhtien" Type="float" />
+    <Property Name="Ngay" Type="smalldatetime" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="8" />
+    <Property Name="Tenkh" Type="nvarchar" MaxLength="200" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="80" />
+    <Property Name="sPeriod" Type="smallint" />
+    <Property Name="sYear" Type="smallint" />
+    <Property Name="Loai" Type="nvarchar" MaxLength="2" />
+    <Property Name="NgayXK" Type="smalldatetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.vwDataHN' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vwDataHN">
+    <Key>
+      <PropertyRef Name="NhanSP" />
+      <PropertyRef Name="LoaiSP" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+    <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Channel" Type="nvarchar" MaxLength="20" />
+    <Property Name="Region" Type="nvarchar" MaxLength="20" />
+    <Property Name="Subregion" Type="nvarchar" MaxLength="20" />
+    <Property Name="Sdf" Type="nvarchar" MaxLength="20" />
+    <Property Name="Area" Type="nvarchar" MaxLength="20" />
+    <Property Name="Province" Type="nvarchar" MaxLength="20" />
+    <Property Name="Territory" Type="nvarchar" MaxLength="20" />
+    <Property Name="MaCT" Type="nvarchar" MaxLength="210" />
+    <Property Name="TenCT" Type="nvarchar" MaxLength="255" />
+    <Property Name="MaXK" Type="nvarchar" MaxLength="10" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Price" Type="float" />
+    <Property Name="NhanSP" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="LoaiSP" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="TienCK" Type="float" />
+    <Property Name="SLKM" Type="float" />
+    <Property Name="Khuyenmai" Type="float" />
+    <Property Name="SLTU" Type="float" />
+    <Property Name="TienTU" Type="float" />
+    <Property Name="SLHB" Type="float" />
+    <Property Name="Thanhtien" Type="float" />
+    <Property Name="Ngay" Type="smalldatetime" />
+    <Property Name="MaKH" Type="nvarchar" MaxLength="8" />
+    <Property Name="Tenkh" Type="nvarchar" MaxLength="200" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="100" />
+    <Property Name="Phuong" Type="nvarchar" MaxLength="50" />
+    <Property Name="Quan" Type="nvarchar" MaxLength="50" />
+    <Property Name="Thanhpho" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="80" />
+    <Property Name="sPeriod" Type="smallint" />
+    <Property Name="sYear" Type="smallint" />
+    <Property Name="Loai" Type="nvarchar" MaxLength="2" />
+    <Property Name="NgayXK" Type="nvarchar" MaxLength="36" />
+    <Property Name="Tuan" Type="smallint" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SSM2014.dbo.vwSDXuatNhapTon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vwSDXuatNhapTon">
+    <Key>
+      <PropertyRef Name="XuatHB" />
+      <PropertyRef Name="XuatKM" />
+      <PropertyRef Name="XuatTU" />
+      <PropertyRef Name="NhapHB" />
+      <PropertyRef Name="NhapKM" />
+      <PropertyRef Name="NhapTU" />
+    </Key>
+    <Property Name="MaNPP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Ngay" Type="smalldatetime" />
+    <Property Name="MaSP" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tuan" Type="smallint" />
+    <Property Name="XuatHB" Type="float" Nullable="false" />
+    <Property Name="XuatKM" Type="float" Nullable="false" />
+    <Property Name="XuatTU" Type="float" Nullable="false" />
+    <Property Name="NhapHB" Type="float" Nullable="false" />
+    <Property Name="NhapKM" Type="float" Nullable="false" />
+    <Property Name="NhapTU" Type="float" Nullable="false" />
+  </EntityType>
+  <Function Name="change_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="Passwordnew" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="chayds" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="chayds1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="thang" Type="int" Mode="In" />
+    <Parameter Name="nam" Type="int" Mode="In" />
+  </Function>
+  <Function Name="chaydsnpp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="manpp" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="deletedata" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="thang" Type="int" Mode="In" />
+    <Parameter Name="nam" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="getctkm" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetDailySale" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="NgayBD" Type="smalldatetime" Mode="In" />
+    <Parameter Name="NgayKT" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="Getnx" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="Getnx1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRDFullData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuDH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuNPP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuNPP2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="thang" Type="nvarchar" Mode="In" />
+    <Parameter Name="nam" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuNV2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="thang" Type="nvarchar" Mode="In" />
+    <Parameter Name="nam" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetRGBaophuNV3" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="thang" Type="nvarchar" Mode="In" />
+    <Parameter Name="nam" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GetRGDraft" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGNhanvient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGNhapxuat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetRGNhapxuatTon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDBaophu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDBaophuKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDBaophuNPP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDBaophuSKU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDCheckCTKM" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDDraft" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDDraft_Edit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDFullData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDKHKhongmua" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetSDXuatNhapTonSKU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophuKH" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophuNPP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophuNPPvung" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophuSKU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHBaophuVung" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="RE" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHCTKM" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHFullData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHFullDatahn" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="rg" Type="varchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHFullDatahn2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="rg" Type="varchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHFullDataTTien" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHNhapXuatTon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHNhapXuatTonSKU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHNhapXuatTonSKU2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTHNhapXuatTonTuan" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="GetTonkho_SKU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="Gettonkhochihang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="Gettonkhochihang3" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="importctkm" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="IMPORTDULIEU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="files" Type="nvarchar" Mode="In" />
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="IMPORTDULIEU2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Npp" Type="nvarchar" Mode="In" />
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="IMPORTKHACHHANG" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="files" Type="nvarchar" Mode="In" />
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="IMPORTNhanVien" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="files" Type="nvarchar" Mode="In" />
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Insert_User" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="dep" Type="nvarchar" Mode="In" />
+    <Parameter Name="name" Type="nvarchar" Mode="In" />
+    <Parameter Name="loai" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="insetdata" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaXK" Type="nvarchar" Mode="In" />
+    <Parameter Name="Ngay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="MaNV" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaKH" Type="nvarchar" Mode="In" />
+    <Parameter Name="Type" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaSP" Type="nvarchar" Mode="In" />
+    <Parameter Name="Soluong" Type="float" Mode="In" />
+    <Parameter Name="Dongia" Type="float" Mode="In" />
+    <Parameter Name="TyleCK" Type="real" Mode="In" />
+    <Parameter Name="Khuyenmai" Type="float" Mode="In" />
+    <Parameter Name="TienCK" Type="float" Mode="In" />
+    <Parameter Name="Thanhtien" Type="float" Mode="In" />
+    <Parameter Name="Loai" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaCT" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Kiemtratonkho" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spTB_DangNhap_KiemTraDangNhap" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TenDangNhap" Type="nvarchar" Mode="In" />
+    <Parameter Name="MatKhau" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="upctkm" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaCT" Type="nvarchar" Mode="In" />
+    <Parameter Name="TenCT" Type="nvarchar" Mode="In" />
+    <Parameter Name="NhanSP" Type="nvarchar" Mode="In" />
+    <Parameter Name="LoaiCT" Type="nvarchar" Mode="In" />
+    <Parameter Name="TyleCK" Type="real" Mode="In" />
+    <Parameter Name="ngaybd" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Ngaykt" Type="smalldatetime" Mode="In" />
+    <Parameter Name="type" Type="char" Mode="In" />
+  </Function>
+  <Function Name="WebBaophuNV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="Webdeletedata" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Webdeletedata1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WEBEXPORT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="file" Type="nvarchar" Mode="In" />
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="nvarchar" Mode="In" />
+    <Parameter Name="DenNgay" Type="nvarchar" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetBaophuNPP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetDoanhso" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetDoanhsonv" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetDS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetNhapxuatNPP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetNhapxuatTon" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetNhapxuatTon1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay1" Type="datetime" Mode="In" />
+    <Parameter Name="DenNgay1" Type="datetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetNhapxuattong" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetRGDraft" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="re" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetSaleIn" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetSDDraft" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+  </Function>
+  <Function Name="WebGetTHCTKM" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="WebGetTHCTKM1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TuNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Webtonkhongay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="xoatonkho" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaNPP" Type="nvarchar" Mode="In" />
+    <Parameter Name="DenNgay" Type="smalldatetime" Mode="In" />
+    <Parameter Name="ngayupdate" Type="smalldatetime" Mode="In" />
+  </Function>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.SDDoanhSoNgay' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="SDDoanhSoNgay">
+        <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+        <Property Name="TenNPP" Type="nvarchar" MaxLength="80" />
+        <Property Name="Region" Type="nvarchar" MaxLength="20" />
+        <Property Name="Area" Type="nvarchar" MaxLength="20" />
+        <Property Name="NhanSP" Type="nvarchar" MaxLength="50" />
+        <Property Name="ngay" Type="smalldatetime" />
+        <Property Name="MaNV" Type="nvarchar" MaxLength="8" />
+        <Property Name="HotenNV" Type="nvarchar" MaxLength="80" />
+        <Property Name="mact" Type="nvarchar" MaxLength="20" />
+        <Property Name="Thanhtien" Type="float" />
+        <Property Name="KhuyenMai" Type="float" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.SDTonkho' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="SDTonkho">
+        <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+        <Property Name="MaSP" Type="nvarchar" MaxLength="16" />
+        <Property Name="TonCK" Type="float" />
+        <Property Name="TonHB" Type="float" />
+        <Property Name="TonKM" Type="float" />
+        <Property Name="TonTU" Type="float" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.t1' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="t1">
+        <Property Name="Region" Type="nvarchar" MaxLength="20" />
+        <Property Name="Province" Type="nvarchar" MaxLength="20" />
+        <Property Name="Area" Type="nvarchar" MaxLength="20" />
+        <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+        <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+        <Property Name="MaSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="TenSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="NhanSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="DVT" Type="nvarchar" MaxLength="255" />
+        <Property Name="Gia" Type="float" />
+        <Property Name="TonDK" Type="float" />
+        <Property Name="TonDKHB" Type="float" />
+        <Property Name="TonDKKM" Type="float" />
+        <Property Name="TonDKTU" Type="float" />
+        <Property Name="NhapHB" Type="float" />
+        <Property Name="NhapKM" Type="float" />
+        <Property Name="XuatHB" Type="float" />
+        <Property Name="XuatKM" Type="float" />
+        <Property Name="XuatDHBKM" Type="float" />
+        <Property Name="NhapTU" Type="float" />
+        <Property Name="XuatTU" Type="float" />
+        <Property Name="TonCK" Type="float" />
+        <Property Name="TonCKHB" Type="float" />
+        <Property Name="TonCKKM" Type="float" />
+        <Property Name="TonCKTU" Type="float" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.tbItemsGrp' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tbItemsGrp">
+        <Property Name="ItemGrp" Type="nvarchar" MaxLength="255" />
+        <Property Name="Itemcode" Type="nvarchar" MaxLength="255" />
+        <Property Name="Factor" Type="float" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.tbItemsss' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="tbItemsss">
+        <Property Name="COL1" Type="nvarchar" MaxLength="50" />
+        <Property Name="COL2" Type="nvarchar" MaxLength="50" />
+        <Property Name="COL3" Type="nvarchar" MaxLength="50" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.Tonkhoclose' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Tonkhoclose">
+        <Property Name="Region" Type="nvarchar" MaxLength="20" />
+        <Property Name="Province" Type="nvarchar" MaxLength="20" />
+        <Property Name="Area" Type="nvarchar" MaxLength="20" />
+        <Property Name="MaNPP" Type="nvarchar" MaxLength="20" />
+        <Property Name="TenNPP" Type="nvarchar" MaxLength="255" />
+        <Property Name="MaSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="TenSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="NhanSP" Type="nvarchar" MaxLength="255" />
+        <Property Name="DVT" Type="nvarchar" MaxLength="255" />
+        <Property Name="Gia" Type="float" />
+        <Property Name="TonDK" Type="float" />
+        <Property Name="TonDKHB" Type="float" />
+        <Property Name="TonDKKM" Type="float" />
+        <Property Name="TonDKTU" Type="float" />
+        <Property Name="NhapHB" Type="float" />
+        <Property Name="NhapKM" Type="float" />
+        <Property Name="XuatHB" Type="float" />
+        <Property Name="XuatKM" Type="float" />
+        <Property Name="XuatDHBKM" Type="float" />
+        <Property Name="NhapTU" Type="float" />
+        <Property Name="XuatTU" Type="float" />
+        <Property Name="TonCK" Type="float" />
+        <Property Name="TonCKHB" Type="float" />
+        <Property Name="TonCKKM" Type="float" />
+        <Property Name="TonCKTU" Type="float" />
+      </EntityType>
+      Errors Found During Generation:
+      warning 6013: The table/view 'SSM2014.dbo.View_guibaocao' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="View_guibaocao">
+        <Property Name="Manpp" Type="nvarchar" MaxLength="20" />
+        <Property Name="DateSend" Type="datetime" />
+        <Property Name="Dateupdate" Type="datetime" />
+        <Property Name="datemax" Type="datetime" />
+        <Property Name="users" Type="nvarchar" MaxLength="50" />
+        <Property Name="ChuKy" Type="smallint" />
+        <Property Name="Tuan" Type="smallint" />
+        <Property Name="Nam" Type="smallint" />
+        <Property Name="Debname" Type="nvarchar" MaxLength="255" />
+        <Property Name="Region" Type="nvarchar" MaxLength="20" />
+        <Property Name="Area" Type="nvarchar" MaxLength="20" />
+        <Property Name="NgayBD" Type="smalldatetime" />
+        <Property Name="NgayKT" Type="smalldatetime" />
+      </EntityType>-->
+</Schema>

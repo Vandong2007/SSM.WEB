@@ -1,0 +1,2200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SSMModelStoreContainer" CdmEntityContainer="SSMEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="SSMModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+          <Condition ColumnName="Model" Value="" />
+        </MappingFragment>
+        <MappingFragment StoreEntitySet="vwSDFullData" />
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="baophunhanviens">
+      <EntityTypeMapping TypeName="SSMModel.baophunhanvien">
+        <MappingFragment StoreEntitySet="baophunhanvien">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bpnpps">
+      <EntityTypeMapping TypeName="SSMModel.bpnpp">
+        <MappingFragment StoreEntitySet="bpnpp">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtproperties">
+      <EntityTypeMapping TypeName="SSMModel.dtproperty">
+        <MappingFragment StoreEntitySet="dtproperties">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="objectid" ColumnName="objectid" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="uvalue" ColumnName="uvalue" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+          <ScalarProperty Name="version" ColumnName="version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDDoanhsoes">
+      <EntityTypeMapping TypeName="SSMModel.SDDoanhso">
+        <MappingFragment StoreEntitySet="SDDoanhso">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="USERs" ColumnName="USERs" />
+          <ScalarProperty Name="dates" ColumnName="dates" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDDoanhso2">
+      <EntityTypeMapping TypeName="SSMModel.SDDoanhso2">
+        <MappingFragment StoreEntitySet="SDDoanhso2">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhangs">
+      <EntityTypeMapping TypeName="SSMModel.SDKhachhang">
+        <MappingFragment StoreEntitySet="SDKhachhang">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="NgayHD" ColumnName="NgayHD" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhang1">
+      <EntityTypeMapping TypeName="SSMModel.SDKhachhang1">
+        <MappingFragment StoreEntitySet="SDKhachhang1">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="NgayHD" ColumnName="NgayHD" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDKhachhangNVs">
+      <EntityTypeMapping TypeName="SSMModel.SDKhachhangNV">
+        <MappingFragment StoreEntitySet="SDKhachhangNV">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Activer" ColumnName="Activer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDNhanviens">
+      <EntityTypeMapping TypeName="SSMModel.SDNhanvien">
+        <MappingFragment StoreEntitySet="SDNhanvien">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Ngayvao" ColumnName="Ngayvao" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDNhanvien1">
+      <EntityTypeMapping TypeName="SSMModel.SDNhanvien1">
+        <MappingFragment StoreEntitySet="SDNhanvien1">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Ngaysinh" ColumnName="Ngaysinh" />
+          <ScalarProperty Name="Ngayvao" ColumnName="Ngayvao" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SDTondaus">
+      <EntityTypeMapping TypeName="SSMModel.SDTondau">
+        <MappingFragment StoreEntitySet="SDTondau">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonHB" ColumnName="TonHB" />
+          <ScalarProperty Name="TonKM" ColumnName="TonKM" />
+          <ScalarProperty Name="TonTU" ColumnName="TonTU" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockHistories">
+      <EntityTypeMapping TypeName="SSMModel.StockHistory">
+        <MappingFragment StoreEntitySet="StockHistory">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+          <ScalarProperty Name="Datecreat" ColumnName="Datecreat" />
+          <ScalarProperty Name="Datechange" ColumnName="Datechange" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SSMModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TB_DangNhap">
+      <EntityTypeMapping TypeName="SSMModel.TB_DangNhap">
+        <MappingFragment StoreEntitySet="TB_DangNhap">
+          <ScalarProperty Name="Usid" ColumnName="Usid" />
+          <ScalarProperty Name="Tendangnhap" ColumnName="Tendangnhap" />
+          <ScalarProperty Name="MaPhongban" ColumnName="MaPhongban" />
+          <ScalarProperty Name="matkhau" ColumnName="matkhau" />
+          <ScalarProperty Name="maquyen" ColumnName="maquyen" />
+          <ScalarProperty Name="hovaten" ColumnName="hovaten" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="Slandangnhap" ColumnName="Slandangnhap" />
+          <ScalarProperty Name="trangthai" ColumnName="trangthai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbActives">
+      <EntityTypeMapping TypeName="SSMModel.tbActive">
+        <MappingFragment StoreEntitySet="tbActive">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCTKMs">
+      <EntityTypeMapping TypeName="SSMModel.tbCTKM">
+        <MappingFragment StoreEntitySet="tbCTKM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiCT" ColumnName="LoaiCT" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Ngaybd" ColumnName="Ngaybd" />
+          <ScalarProperty Name="Ngaykt" ColumnName="Ngaykt" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCustomers">
+      <EntityTypeMapping TypeName="SSMModel.tbCustomer">
+        <MappingFragment StoreEntitySet="tbCustomer">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="Debname" ColumnName="Debname" />
+          <ScalarProperty Name="Debadd" ColumnName="Debadd" />
+          <ScalarProperty Name="Classid" ColumnName="Classid" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="Activer" ColumnName="Activer" />
+          <ScalarProperty Name="Lastchange" ColumnName="Lastchange" />
+          <ScalarProperty Name="datechange" ColumnName="datechange" />
+          <ScalarProperty Name="Olddebcode" ColumnName="Olddebcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCustomerS1">
+      <EntityTypeMapping TypeName="SSMModel.tbCustomer1">
+        <MappingFragment StoreEntitySet="tbCustomerS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DebOption" ColumnName="DebOption" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbItems">
+      <EntityTypeMapping TypeName="SSMModel.tbItem">
+        <MappingFragment StoreEntitySet="tbItems">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="ItemnameEng" ColumnName="ItemnameEng" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Subbrand" ColumnName="Subbrand" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Volumn" ColumnName="Volumn" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="OldItemcode" ColumnName="OldItemcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBaophus">
+      <EntityTypeMapping TypeName="SSMModel.tblBaophu">
+        <MappingFragment StoreEntitySet="tblBaophu">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbllogs">
+      <EntityTypeMapping TypeName="SSMModel.tbllog">
+        <MappingFragment StoreEntitySet="tbllog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Manpp" ColumnName="Manpp" />
+          <ScalarProperty Name="DateSend" ColumnName="DateSend" />
+          <ScalarProperty Name="Dateupdate" ColumnName="Dateupdate" />
+          <ScalarProperty Name="datemax" ColumnName="datemax" />
+          <ScalarProperty Name="users" ColumnName="users" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbLoaiCTs">
+      <EntityTypeMapping TypeName="SSMModel.tbLoaiCT">
+        <MappingFragment StoreEntitySet="tbLoaiCT">
+          <ScalarProperty Name="LoaiCT" ColumnName="LoaiCT" />
+          <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbPeriods">
+      <EntityTypeMapping TypeName="SSMModel.tbPeriod">
+        <MappingFragment StoreEntitySet="tbPeriod">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="DateFrom" ColumnName="DateFrom" />
+          <ScalarProperty Name="DateTo" ColumnName="DateTo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Lock" ColumnName="Lock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBQuyenUsers">
+      <EntityTypeMapping TypeName="SSMModel.TBQuyenUser">
+        <MappingFragment StoreEntitySet="TBQuyenUser">
+          <ScalarProperty Name="Tendangnhap" ColumnName="Tendangnhap" />
+          <ScalarProperty Name="Bophan" ColumnName="Bophan" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Customer" ColumnName="Customer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbSalesINs">
+      <EntityTypeMapping TypeName="SSMModel.tbSalesIN">
+        <MappingFragment StoreEntitySet="tbSalesIN">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Ordernr" ColumnName="Ordernr" />
+          <ScalarProperty Name="Invnr" ColumnName="Invnr" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AmountRBP" ColumnName="AmountRBP" />
+          <ScalarProperty Name="AmountINV" ColumnName="AmountINV" />
+          <ScalarProperty Name="Transactiontype" ColumnName="Transactiontype" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbWeeks">
+      <EntityTypeMapping TypeName="SSMModel.tbWeek">
+        <MappingFragment StoreEntitySet="tbWeek">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="ChuKy" ColumnName="ChuKy" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="NgayBD" ColumnName="NgayBD" />
+          <ScalarProperty Name="NgayKT" ColumnName="NgayKT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tonkho22">
+      <EntityTypeMapping TypeName="SSMModel.tonkho22">
+        <MappingFragment StoreEntitySet="tonkho22">
+          <ScalarProperty Name="manpp" ColumnName="manpp" />
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="tondau" ColumnName="tondau" />
+          <ScalarProperty Name="nhaphangban" ColumnName="nhaphangban" />
+          <ScalarProperty Name="nhapKM" ColumnName="nhapKM" />
+          <ScalarProperty Name="xuathangban" ColumnName="xuathangban" />
+          <ScalarProperty Name="xuatkm" ColumnName="xuatkm" />
+          <ScalarProperty Name="toncuoi" ColumnName="toncuoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTNhapXuats">
+      <EntityTypeMapping TypeName="SSMModel.CTNhapXuat">
+        <MappingFragment StoreEntitySet="CTNhapXuat">
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhapXuats">
+      <EntityTypeMapping TypeName="SSMModel.NhapXuat">
+        <MappingFragment StoreEntitySet="NhapXuat">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Item">
+      <EntityTypeMapping TypeName="SSMModel.v_Item">
+        <MappingFragment StoreEntitySet="v_Item">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPEn" ColumnName="TenSPEn" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="Nhanphu" ColumnName="Nhanphu" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="Dungtich" ColumnName="Dungtich" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_SalesDailyMT">
+      <EntityTypeMapping TypeName="SSMModel.v_SalesDailyMT">
+        <MappingFragment StoreEntitySet="v_SalesDailyMT">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+          <ScalarProperty Name="datum" ColumnName="datum" />
+          <ScalarProperty Name="orderno" ColumnName="orderno" />
+          <ScalarProperty Name="docnumber" ColumnName="docnumber" />
+          <ScalarProperty Name="oms25" ColumnName="oms25" />
+          <ScalarProperty Name="artcode" ColumnName="artcode" />
+          <ScalarProperty Name="rbp" ColumnName="rbp" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="amountrbp" ColumnName="amountrbp" />
+          <ScalarProperty Name="amountinv" ColumnName="amountinv" />
+          <ScalarProperty Name="transactiontype" ColumnName="transactiontype" />
+          <ScalarProperty Name="spreiod" ColumnName="spreiod" />
+          <ScalarProperty Name="syear" ColumnName="syear" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_NX">
+      <EntityTypeMapping TypeName="SSMModel.Vw_NX">
+        <MappingFragment StoreEntitySet="Vw_NX">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHB" ColumnName="XuatDHB" />
+          <ScalarProperty Name="XuatDKM" ColumnName="XuatDKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vw_webFull">
+      <EntityTypeMapping TypeName="SSMModel.Vw_webFull">
+        <MappingFragment StoreEntitySet="Vw_webFull">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwDataHNs">
+      <EntityTypeMapping TypeName="SSMModel.vwDataHN">
+        <MappingFragment StoreEntitySet="vwDataHN">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwdoanhsofulls">
+      <EntityTypeMapping TypeName="SSMModel.vwdoanhsofull">
+        <MappingFragment StoreEntitySet="vwdoanhsofull">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="diachii" ColumnName="diachii" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDFullDatas">
+      <EntityTypeMapping TypeName="SSMModel.vwSDFullData">
+        <MappingFragment StoreEntitySet="vwSDFullData">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDTonSKUs">
+      <EntityTypeMapping TypeName="SSMModel.vwSDTonSKU">
+        <MappingFragment StoreEntitySet="vwSDTonSKU">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHB" ColumnName="XuatDHB" />
+          <ScalarProperty Name="XuatDKM" ColumnName="XuatDKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vwSDXuatNhapTons">
+      <EntityTypeMapping TypeName="SSMModel.vwSDXuatNhapTon">
+        <MappingFragment StoreEntitySet="vwSDXuatNhapTon">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="change_User" FunctionName="SSMModel.Store.change_User" />
+    <FunctionImportMapping FunctionImportName="deletedata" FunctionName="SSMModel.Store.deletedata" />
+    <FunctionImportMapping FunctionImportName="dt_addtosourcecontrol" FunctionName="SSMModel.Store.dt_addtosourcecontrol" />
+    <FunctionImportMapping FunctionImportName="dt_addtosourcecontrol_u" FunctionName="SSMModel.Store.dt_addtosourcecontrol_u" />
+    <FunctionImportMapping FunctionImportName="dt_adduserobject" FunctionName="SSMModel.Store.dt_adduserobject" />
+    <FunctionImportMapping FunctionImportName="dt_adduserobject_vcs" FunctionName="SSMModel.Store.dt_adduserobject_vcs" />
+    <FunctionImportMapping FunctionImportName="dt_checkinobject" FunctionName="SSMModel.Store.dt_checkinobject" />
+    <FunctionImportMapping FunctionImportName="dt_checkinobject_u" FunctionName="SSMModel.Store.dt_checkinobject_u" />
+    <FunctionImportMapping FunctionImportName="dt_checkoutobject" FunctionName="SSMModel.Store.dt_checkoutobject" />
+    <FunctionImportMapping FunctionImportName="dt_checkoutobject_u" FunctionName="SSMModel.Store.dt_checkoutobject_u" />
+    <FunctionImportMapping FunctionImportName="dt_displayoaerror" FunctionName="SSMModel.Store.dt_displayoaerror" />
+    <FunctionImportMapping FunctionImportName="dt_displayoaerror_u" FunctionName="SSMModel.Store.dt_displayoaerror_u" />
+    <FunctionImportMapping FunctionImportName="dt_droppropertiesbyid" FunctionName="SSMModel.Store.dt_droppropertiesbyid" />
+    <FunctionImportMapping FunctionImportName="dt_dropuserobjectbyid" FunctionName="SSMModel.Store.dt_dropuserobjectbyid" />
+    <FunctionImportMapping FunctionImportName="dt_generateansiname" FunctionName="SSMModel.Store.dt_generateansiname" />
+    <FunctionImportMapping FunctionImportName="dt_getobjwithprop" FunctionName="SSMModel.Store.dt_getobjwithprop" />
+    <FunctionImportMapping FunctionImportName="dt_getobjwithprop_u" FunctionName="SSMModel.Store.dt_getobjwithprop_u" />
+    <FunctionImportMapping FunctionImportName="dt_getpropertiesbyid" FunctionName="SSMModel.Store.dt_getpropertiesbyid">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.dt_getpropertiesbyid_Result">
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dt_getpropertiesbyid_u" FunctionName="SSMModel.Store.dt_getpropertiesbyid_u">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.dt_getpropertiesbyid_u_Result">
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="uvalue" ColumnName="uvalue" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="dt_getpropertiesbyid_vcs" FunctionName="SSMModel.Store.dt_getpropertiesbyid_vcs" />
+    <FunctionImportMapping FunctionImportName="dt_getpropertiesbyid_vcs_u" FunctionName="SSMModel.Store.dt_getpropertiesbyid_vcs_u" />
+    <FunctionImportMapping FunctionImportName="dt_isundersourcecontrol" FunctionName="SSMModel.Store.dt_isundersourcecontrol" />
+    <FunctionImportMapping FunctionImportName="dt_isundersourcecontrol_u" FunctionName="SSMModel.Store.dt_isundersourcecontrol_u" />
+    <FunctionImportMapping FunctionImportName="dt_removefromsourcecontrol" FunctionName="SSMModel.Store.dt_removefromsourcecontrol" />
+    <FunctionImportMapping FunctionImportName="dt_setpropertybyid" FunctionName="SSMModel.Store.dt_setpropertybyid" />
+    <FunctionImportMapping FunctionImportName="dt_setpropertybyid_u" FunctionName="SSMModel.Store.dt_setpropertybyid_u" />
+    <FunctionImportMapping FunctionImportName="dt_validateloginparams" FunctionName="SSMModel.Store.dt_validateloginparams" />
+    <FunctionImportMapping FunctionImportName="dt_validateloginparams_u" FunctionName="SSMModel.Store.dt_validateloginparams_u" />
+    <FunctionImportMapping FunctionImportName="dt_vcsenabled" FunctionName="SSMModel.Store.dt_vcsenabled" />
+    <FunctionImportMapping FunctionImportName="dt_verstamp006" FunctionName="SSMModel.Store.dt_verstamp006" />
+    <FunctionImportMapping FunctionImportName="dt_verstamp007" FunctionName="SSMModel.Store.dt_verstamp007" />
+    <FunctionImportMapping FunctionImportName="dt_whocheckedout" FunctionName="SSMModel.Store.dt_whocheckedout" />
+    <FunctionImportMapping FunctionImportName="dt_whocheckedout_u" FunctionName="SSMModel.Store.dt_whocheckedout_u" />
+    <FunctionImportMapping FunctionImportName="getctkm" FunctionName="SSMModel.Store.getctkm">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.getctkm_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiCT" ColumnName="LoaiCT" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Ngaybd" ColumnName="Ngaybd" />
+          <ScalarProperty Name="Ngaykt" ColumnName="Ngaykt" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Field1" ColumnName="Field1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetDailySale" FunctionName="SSMModel.Store.GetDailySale">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetDailySale_Result">
+          <ScalarProperty Name="Debcode" ColumnName="Debcode" />
+          <ScalarProperty Name="UNID" ColumnName="UNID" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Ordernr" ColumnName="Ordernr" />
+          <ScalarProperty Name="Invnr" ColumnName="Invnr" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Itemcode" ColumnName="Itemcode" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AmountRBP" ColumnName="AmountRBP" />
+          <ScalarProperty Name="AmountINV" ColumnName="AmountINV" />
+          <ScalarProperty Name="Transactiontype" ColumnName="Transactiontype" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Getnx" FunctionName="SSMModel.Store.Getnx">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.Getnx_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Getnx1" FunctionName="SSMModel.Store.Getnx1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.Getnx1_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="ItemnameEng" ColumnName="ItemnameEng" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRDFullData" FunctionName="SSMModel.Store.GetRDFullData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRDFullData_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuDH" FunctionName="SSMModel.Store.GetRGBaophuDH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuDH_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuKH" FunctionName="SSMModel.Store.GetRGBaophuKH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuKH_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuNPP" FunctionName="SSMModel.Store.GetRGBaophuNPP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuNPP_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuNPP2" FunctionName="SSMModel.Store.GetRGBaophuNPP2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuNPP2_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuNV" FunctionName="SSMModel.Store.GetRGBaophuNV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuNV_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuNV2" FunctionName="SSMModel.Store.GetRGBaophuNV2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuNV2_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGBaophuNV3" FunctionName="SSMModel.Store.GetRGBaophuNV3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGBaophuNV3_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGDraft" FunctionName="SSMModel.Store.GetRGDraft">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGDraft_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGNhanvient" FunctionName="SSMModel.Store.GetRGNhanvient">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGNhanvient_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT1" ColumnName="MaCT1" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGNhapxuat" FunctionName="SSMModel.Store.GetRGNhapxuat">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGNhapxuat_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetRGNhapxuatTon" FunctionName="SSMModel.Store.GetRGNhapxuatTon">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetRGNhapxuatTon_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDBaophu" FunctionName="SSMModel.Store.GetSDBaophu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDBaophu_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDBaophuKH" FunctionName="SSMModel.Store.GetSDBaophuKH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDBaophuKH_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDBaophuNPP" FunctionName="SSMModel.Store.GetSDBaophuNPP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDBaophuNPP_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDBaophuSKU" FunctionName="SSMModel.Store.GetSDBaophuSKU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDBaophuSKU_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDCheckCTKM" FunctionName="SSMModel.Store.GetSDCheckCTKM">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDCheckCTKM_Result">
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="Diengiai" ColumnName="Diengiai" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="TongKM" ColumnName="TongKM" />
+          <ScalarProperty Name="TongCK" ColumnName="TongCK" />
+          <ScalarProperty Name="TongTT" ColumnName="TongTT" />
+          <ScalarProperty Name="TLCKThuchien" ColumnName="TLCKThuchien" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDDraft" FunctionName="SSMModel.Store.GetSDDraft">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDDraft_Result">
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDDraft_Edit" FunctionName="SSMModel.Store.GetSDDraft_Edit">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDDraft_Edit_Result">
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDFullData" FunctionName="SSMModel.Store.GetSDFullData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDFullData_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDKHKhongmua" FunctionName="SSMModel.Store.GetSDKHKhongmua">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDKHKhongmua_Result">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSDtonkho2" FunctionName="SSMModel.Store.GetSDtonkho2" />
+    <FunctionImportMapping FunctionImportName="GetSDXuatNhapTonSKU" FunctionName="SSMModel.Store.GetSDXuatNhapTonSKU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetSDXuatNhapTonSKU_Result">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophu" FunctionName="SSMModel.Store.GetTHBaophu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophu_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophuKH" FunctionName="SSMModel.Store.GetTHBaophuKH">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophuKH_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophuNPP" FunctionName="SSMModel.Store.GetTHBaophuNPP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophuNPP_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophuNPPvung" FunctionName="SSMModel.Store.GetTHBaophuNPPvung">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophuNPPvung_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophuSKU" FunctionName="SSMModel.Store.GetTHBaophuSKU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophuSKU_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="Tenkh" ColumnName="Tenkh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Phuong" ColumnName="Phuong" />
+          <ScalarProperty Name="Quan" ColumnName="Quan" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="NgayXK" ColumnName="NgayXK" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHBaophuVung" FunctionName="SSMModel.Store.GetTHBaophuVung">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHBaophuVung_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHCTKM" FunctionName="SSMModel.Store.GetTHCTKM">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHCTKM_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="MaCT1" ColumnName="MaCT1" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="TyleCK" ColumnName="TyleCK" />
+          <ScalarProperty Name="Giatri" ColumnName="Giatri" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHFullData" FunctionName="SSMModel.Store.GetTHFullData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHFullData_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT1" ColumnName="MaCT1" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHFullDatahn" FunctionName="SSMModel.Store.GetTHFullDatahn">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHFullDatahn_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT1" ColumnName="MaCT1" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHFullDatahn2" FunctionName="SSMModel.Store.GetTHFullDatahn2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHFullDatahn2_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT1" ColumnName="MaCT1" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="tienck" ColumnName="tienck" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHFullDataTTien" FunctionName="SSMModel.Store.GetTHFullDataTTien">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHFullDataTTien_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="LoaiSP" ColumnName="LoaiSP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="sPeriod" ColumnName="sPeriod" />
+          <ScalarProperty Name="sYear" ColumnName="sYear" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHNhapXuatTon" FunctionName="SSMModel.Store.GetTHNhapXuatTon" />
+    <FunctionImportMapping FunctionImportName="GetTHNhapXuatTonSKU" FunctionName="SSMModel.Store.GetTHNhapXuatTonSKU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHNhapXuatTonSKU_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHNhapXuatTonSKU2" FunctionName="SSMModel.Store.GetTHNhapXuatTonSKU2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHNhapXuatTonSKU2_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTHNhapXuatTonTuan" FunctionName="SSMModel.Store.GetTHNhapXuatTonTuan">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTHNhapXuatTonTuan_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Sdf" ColumnName="Sdf" />
+          <ScalarProperty Name="Territory" ColumnName="Territory" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="Itemname" ColumnName="Itemname" />
+          <ScalarProperty Name="ItemnameEng" ColumnName="ItemnameEng" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="Tuan" ColumnName="Tuan" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetTonkho_SKU" FunctionName="SSMModel.Store.GetTonkho_SKU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.GetTonkho_SKU_Result">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Gettonkhochihang" FunctionName="SSMModel.Store.Gettonkhochihang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.Gettonkhochihang_Result">
+          <ScalarProperty Name="manpp" ColumnName="manpp" />
+          <ScalarProperty Name="thang" ColumnName="thang" />
+          <ScalarProperty Name="tondau" ColumnName="tondau" />
+          <ScalarProperty Name="nhaphangban" ColumnName="nhaphangban" />
+          <ScalarProperty Name="nhapKM" ColumnName="nhapKM" />
+          <ScalarProperty Name="xuathangban" ColumnName="xuathangban" />
+          <ScalarProperty Name="xuatkm" ColumnName="xuatkm" />
+          <ScalarProperty Name="toncuoi" ColumnName="toncuoi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Gettonkhochihang2" FunctionName="SSMModel.Store.Gettonkhochihang2" />
+    <FunctionImportMapping FunctionImportName="Gettonkhochihang3" FunctionName="SSMModel.Store.Gettonkhochihang3" />
+    <FunctionImportMapping FunctionImportName="importctkm" FunctionName="SSMModel.Store.importctkm" />
+    <FunctionImportMapping FunctionImportName="IMPORTDULIEU" FunctionName="SSMModel.Store.IMPORTDULIEU" />
+    <FunctionImportMapping FunctionImportName="IMPORTDULIEU2" FunctionName="SSMModel.Store.IMPORTDULIEU2" />
+    <FunctionImportMapping FunctionImportName="IMPORTKHACHHANG" FunctionName="SSMModel.Store.IMPORTKHACHHANG" />
+    <FunctionImportMapping FunctionImportName="IMPORTNhanVien" FunctionName="SSMModel.Store.IMPORTNhanVien" />
+    <FunctionImportMapping FunctionImportName="Insert_User" FunctionName="SSMModel.Store.Insert_User" />
+    <FunctionImportMapping FunctionImportName="insetdata" FunctionName="SSMModel.Store.insetdata" />
+    <FunctionImportMapping FunctionImportName="Kiemtratonkho" FunctionName="SSMModel.Store.Kiemtratonkho">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.Kiemtratonkho_Result">
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSPen" ColumnName="TenSPen" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SSMModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SSMModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SSMModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SSMModel.Store.sp_helpdiagramdefinition" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SSMModel.Store.sp_helpdiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SSMModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SSMModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="spTB_DangNhap_KiemTraDangNhap" FunctionName="SSMModel.Store.spTB_DangNhap_KiemTraDangNhap" />
+    <FunctionImportMapping FunctionImportName="upctkm" FunctionName="SSMModel.Store.upctkm" />
+    <FunctionImportMapping FunctionImportName="update_cus_Sale_Item_SSM" FunctionName="SSMModel.Store.update_cus_Sale_Item_SSM" />
+    <FunctionImportMapping FunctionImportName="Update_Sale_Items" FunctionName="SSMModel.Store.Update_Sale_Items" />
+    <FunctionImportMapping FunctionImportName="WebBaophuNV" FunctionName="SSMModel.Store.WebBaophuNV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebBaophuNV_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Webdeletedata" FunctionName="SSMModel.Store.Webdeletedata" />
+    <FunctionImportMapping FunctionImportName="Webdeletedata1" FunctionName="SSMModel.Store.Webdeletedata1" />
+    <FunctionImportMapping FunctionImportName="WEBEXPORT" FunctionName="SSMModel.Store.WEBEXPORT" />
+    <FunctionImportMapping FunctionImportName="WebGetBaophuNPP" FunctionName="SSMModel.Store.WebGetBaophuNPP">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetBaophuNPP_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="SLNV" ColumnName="SLNV" />
+          <ScalarProperty Name="SLDonhang" ColumnName="SLDonhang" />
+          <ScalarProperty Name="SLKHMua" ColumnName="SLKHMua" />
+          <ScalarProperty Name="SLKHQuanly" ColumnName="SLKHQuanly" />
+          <ScalarProperty Name="SLSKU" ColumnName="SLSKU" />
+          <ScalarProperty Name="TyleKHMua" ColumnName="TyleKHMua" />
+          <ScalarProperty Name="TyleDH_KH" ColumnName="TyleDH_KH" />
+          <ScalarProperty Name="TyleDS_DH" ColumnName="TyleDS_DH" />
+          <ScalarProperty Name="TyleSKU_DH" ColumnName="TyleSKU_DH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetDoanhso" FunctionName="SSMModel.Store.WebGetDoanhso">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetDoanhso_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetDoanhsonv" FunctionName="SSMModel.Store.WebGetDoanhsonv">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetDoanhsonv_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HotenNV" ColumnName="HotenNV" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetDS" FunctionName="SSMModel.Store.WebGetDS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetDS_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Subregion" ColumnName="Subregion" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetNhapxuatTon" FunctionName="SSMModel.Store.WebGetNhapxuatTon">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetNhapxuatTon_Result">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetNhapxuatTon1" FunctionName="SSMModel.Store.WebGetNhapxuatTon1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetNhapxuatTon1_Result">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonDK" ColumnName="TonDK" />
+          <ScalarProperty Name="TonDKHB" ColumnName="TonDKHB" />
+          <ScalarProperty Name="TonDKKM" ColumnName="TonDKKM" />
+          <ScalarProperty Name="TonDKTU" ColumnName="TonDKTU" />
+          <ScalarProperty Name="NhapHB" ColumnName="NhapHB" />
+          <ScalarProperty Name="NhapKM" ColumnName="NhapKM" />
+          <ScalarProperty Name="XuatHB" ColumnName="XuatHB" />
+          <ScalarProperty Name="XuatKM" ColumnName="XuatKM" />
+          <ScalarProperty Name="XuatDHBKM" ColumnName="XuatDHBKM" />
+          <ScalarProperty Name="NhapTU" ColumnName="NhapTU" />
+          <ScalarProperty Name="XuatTU" ColumnName="XuatTU" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TonCKTU" ColumnName="TonCKTU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetRGDraft" FunctionName="SSMModel.Store.WebGetRGDraft">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetRGDraft_Result">
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+          <ScalarProperty Name="TenCT" ColumnName="TenCT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="WebGetSDDraft" FunctionName="SSMModel.Store.WebGetSDDraft">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.WebGetSDDraft_Result">
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaXK" ColumnName="MaXK" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="Dongia" ColumnName="Dongia" />
+          <ScalarProperty Name="SLHB" ColumnName="SLHB" />
+          <ScalarProperty Name="Thanhtien" ColumnName="Thanhtien" />
+          <ScalarProperty Name="SLKM" ColumnName="SLKM" />
+          <ScalarProperty Name="Khuyenmai" ColumnName="Khuyenmai" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="SLTU" ColumnName="SLTU" />
+          <ScalarProperty Name="TienTU" ColumnName="TienTU" />
+          <ScalarProperty Name="MaCT" ColumnName="MaCT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Webtonkhongay" FunctionName="SSMModel.Store.Webtonkhongay">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SSMModel.Webtonkhongay_Result">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="MaNPP" ColumnName="MaNPP" />
+          <ScalarProperty Name="TenNPP" ColumnName="TenNPP" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="NhanSP" ColumnName="NhanSP" />
+          <ScalarProperty Name="DVT" ColumnName="DVT" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TonCK" ColumnName="TonCK" />
+          <ScalarProperty Name="TienCK" ColumnName="TienCK" />
+          <ScalarProperty Name="TonCKHB" ColumnName="TonCKHB" />
+          <ScalarProperty Name="TienCKHB" ColumnName="TienCKHB" />
+          <ScalarProperty Name="TonCKKM" ColumnName="TonCKKM" />
+          <ScalarProperty Name="TienCKKM" ColumnName="TienCKKM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="xoatonkho" FunctionName="SSMModel.Store.xoatonkho" />
+  </EntityContainerMapping>
+</Mapping>
